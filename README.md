@@ -1,6 +1,8 @@
 # Various Program Language Benchmarks
 I want to know exactly how different various program languages perform. However, nowadays there're no such openning project on Internet. 
 
+Now this repository support comparison between Scheme and Javascript.
+
 ## How to run benchmarks on your own computor
 ### Prerequest
 * [Nix](https://nixos.org/) is a tool that takes a unique approach to package management and system configuration. I use it to make reproducible environment to run benchmark. You may need to install it on you own system.
