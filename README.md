@@ -14,3 +14,6 @@ All benchmarks are listed in [src directory](./src), I tried my best to make dif
 | [string](./src/string)| String operation mainly on string concating and spliting. | Different languages usually have their own specific details on string model, which lead merely same operations in different languages cause big performance barrier. |
 | [sum](./src/sum)| Sum up integers from 1 to n with recursion. | I don't know why javascript is faster than chez scheme. |
 | [sumfp](./src/sumfp)| Sum up integers' float representation from 1.0 to n with recursion. | I don't know why javascript is faster than chez scheme. |
+| [fib](./src/fib)| Fibonacci |  |
+| [nqueens](./src/nqueens)| N-queen problem.|  |
+| [triangl](./src/triangl)| Well, I don't know what it is.|  |
