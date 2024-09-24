@@ -1,0 +1,101 @@
+* Various Program Language Benchmarks
+Benchmarks for various program language. 
+
+<!-- See the results [[http://ecraven.github.io/r7rs-benchmarks/benchmark.html][here]]
+* Running the tests
+Just run 
+#+BEGIN_SRC
+./bench <scheme> <test>
+#+END_SRC
+Schemes that should work:
+- [[https://www-sop.inria.fr/indes/fp/Bigloo][Bigloo]] (=bigloo=)
+- [[http://www.call-with-current-continuation.org/bones][Bones]] (=bones=)
+- [[http://scheme.com][Chez]] (=chez=)
+- [[http://synthcode.com/scheme/chibi][Chibi]] (=chibi=)
+- [[https://www.call-cc.org/][Chicken]] (=chicken=)
+- [[http://justinethier.github.io/cyclone/][Cyclone]] (=cyclone=)
+- [[https://github.com/leftmike/foment][Foment]] (=foment=)
+- [[http://gambitscheme.org/wiki/index.php/Main_Page][GambitC]] (=gambitc=)
+- [[http://practical-scheme.net/gauche/][Gauche]] (=gauche=)
+- [[http://www.gnu.org/software/guile/][Guile]] (=guile=)
+- [[https://github.com/IronScheme/IronScheme][IronScheme]] (=ironscheme=)
+- [[http://www.gnu.org/software/kawa/][Kawa]] (=kawa=)
+- [[http://www.larcenists.org/][Larceny]] (=larceny=)
+- [[https://scheme.fail/][Loko]] (=loko=)
+- [[https://www.gnu.org/software/mit-scheme/][MIT/GNU]] Scheme (=mit=)
+- [[http://mosh.monaos.org][Mosh]] (=mosh=)
+- [[http://scheme.com/][Petite Chez]] (=chez=)
+- [[https://github.com/picrin-scheme/picrin][Picrin]] (=picrin=)
+- [[https://racket-lang.org][Racket]] (=racket=)
+- [[http://www.kt.rim.or.jp/~qfwfq/rhiz-pi/index-e.html][Rhizome/Pi]] (=rhizome=)
+- [[http://www.rscheme.org][RScheme]] (=rscheme=)
+- [[https://bitbucket.org/ktakashi/sagittarius-scheme/wiki/Home][Sagittarius]] (=sagittarius=)
+- [[http://s48.org][Scheme48]] (=scheme48=)
+- [[http://t3x.org/s9fes/][Scheme 9 from Empty Space]] (=s9fes=)
+- [[https://gitlab.com/jobol/tr7][TR7, tiny R7RS interpreter]] (=TR7=)
+- [[http://marcomaggi.github.io/vicare.html][Vicare]] (=vicare=)
+- [[http://www.littlewingpinball.net/mediawiki/index.php/Ypsilon][Ypsilon]] (=ypsilon=)
+This should result in a file =./results.<scheme>=.
+
+All of these Schemes are packaged for ArchLinux. The tests are run with whatever that package produces.
+
+Run
+#+BEGIN_SRC
+make csv
+#+END_SRC
+to produce a file =all.csv= with the test results (=<scheme>,<test>,<seconds>=).
+
+** Limiting compile-time and run-time
+The environment variable =CPU_TIME= can be set, to limit the time for compilation and for running (each individually).
+#+BEGIN_SRC
+CPU_TIME=3600 ./bench chez all
+#+END_SRC
+** Path to executables
+You can set an environment variable to specify the path to each Scheme.
+#+BEGIN_SRC
+LARCENY=/tmp/larceny/larceny MIT=/tmp/mit/mit-scheme ./bench "mit larceny" "fib ack"
+#+END_SRC
+** Notes for specific implementations
+*** Chicken
+The chicken test code assumes the presence of
+- vector-lib
+- r7rs
+
+Install them by running
+#+BEGIN_SRC
+chicken-install vector-lib r7rs
+#+END_SRC
+*** Racket
+The racket test code assumes the presence of https://github.com/lexi-lambda/racket-r7rs.git.
+
+Install the r7rs package installation-wide.
+
+Run:
+#+BEGIN_SRC
+sudo raco pkg install --scope installation r7rs
+#+END_SRC
+
+*** IronScheme
+Install the latest version of .NET Runtime (currently 9.0-preview, requires at least IronScheme 1.0.357) from https://dotnet.microsoft.com/en-us/download/dotnet .
+
+The default binary for IronScheme (can be changed by exporting IRONSCHEME in your shell before running bench) is called =ironscheme=.
+
+If you unpack IronScheme in your home, you can create a shell script like the following:
+#+BEGIN_SRC
+#!/bin/bash
+export DOTNET_CLI_TELEMETRY_OPTOUT=1
+dotnet ~/IronScheme/IronScheme.ConsoleCore.dll $*
+#+END_SRC
+and put that somewhere in your =$PATH=.
+*** Stalin
+Before calling Stalin, the code is run through [[http://petrofsky.org/src/alexpander.scm][alexpander]] (by default using Chicken's =csi=). Then stalin is invoked on the result.
+** Unsupported Schemes
+*** Owl Lisp
+Missing a lot of necessary functions, =read= for example.
+*** TinyScheme
+Problems with redirecting input, =read= chokes. No timing functions.
+** Safety
+The benchmarking code does *not* use unsafe optimizations. These make code run even faster (but less safe ;)
+Specific options that could be used are:
+- Chez :: =--optimize-level 3=
+- Gerbil / Gambit :: =(declare (not safe))= -->
