@@ -1,15 +1,12 @@
 #!/usr/bin/env bash
-source .akku/bin/activate
-
-skip=(
-)
 
 success=0
 
-for test in $(find ./language-environments -name | grep "run.sh$")
+for test in $(find ./language-environments | grep "run.sh$")
 do
     if [[ "${skip[@]}" =~ $test ]]; then continue; fi
-    bash run.sh
+    echo $test
+    bash $test
     success=$(($? || $success))
 done;
 
