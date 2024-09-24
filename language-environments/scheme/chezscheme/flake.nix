@@ -1,5 +1,5 @@
 {
-  description = "A Nix-flake-based Node.js development environment";
+  description = "A Nix-flake-based Chez Scheme development environment";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-24.05";
@@ -18,7 +18,6 @@
       # create an environment with nodejs_18, pnpm, and yarn
       packages = with pkgs; [
         chez
-        akku
       ];
       shellHook = ''
         for test in $(find ./src | grep ".scm$")
