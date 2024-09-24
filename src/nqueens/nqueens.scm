@@ -31,15 +31,4 @@
 
   (my-try (iota1 n) '() '()))
 
-(define (run-benchmark)
-  (let* ((count (read))
-         (input1 (read))
-         (output (read))
-         (s2 (number->string count))
-         (s1 (number->string input1))
-         (name "nqueens"))
-    (run-r7rs-benchmark
-     (string-append name ":" s1 ":" s2)
-     count
-     (lambda () (nqueens (hide count input1)))
-     (lambda (result) (= result output)))))
+(nqueens 14)
