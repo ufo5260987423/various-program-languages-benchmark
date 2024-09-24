@@ -15,15 +15,16 @@
         inherit system;
       };
     in pkgs.mkShell {
-      # create an environment with nodejs_18, pnpm, and yarn
       packages = with pkgs; [
-        nodejs_18
-        nodePackages.pnpm
-        (yarn.override { nodejs = nodejs_18; })
+        nodejs
       ];
-
       shellHook = ''
-        echo "node `${pkgs.nodejs}/bin/node --version`"
+        for test in $(find ../../../src | grep ".js$")
+        do
+          echo $test
+          time node $test
+        done;
+        exit
       '';
     };
   };
