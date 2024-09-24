@@ -2,28 +2,23 @@
 
 (import (rnrs))
 
-(define *board*
-  (list->vector '(1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1)))
+(define *board* '#(1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1))
 
-(define *sequence*
-  (list->vector '(0 0 0 0 0 0 0 0 0 0 0 0 0 0)))
+(define *sequence* '#(0 0 0 0 0 0 0 0 0 0 0 0 0 0))
 
-(define *a*
-  (list->vector '(1 2 4 3 5 6 1 3 6 2 5 4 11 12
+(define *a* '#(1 2 4 3 5 6 1 3 6 2 5 4 11 12
                     13 7 8 4 4 7 11 8 12 13 6 10
                     15 9 14 13 13 14 15 9 10
-                    6 6)))
+                    6 6))
 
-(define *b*
-  (list->vector '(2 4 7 5 8 9 3 6 10 5 9 8
+(define *b* '#(2 4 7 5 8 9 3 6 10 5 9 8
                     12 13 14 8 9 5 2 4 7 5 8
                     9 3 6 10 5 9 8 12 13 14
-                    8 9 5 5)))
+                    8 9 5 5))
 
-(define *c*
-  (list->vector '(4 7 11 8 12 13 6 10 15 9 14 13
+(define *c* '#(4 7 11 8 12 13 6 10 15 9 14 13
                     13 14 15 9 10 6 1 2 4 3 5 6 1
-                    3 6 2 5 4 11 12 13 7 8 4 4)))
+                    3 6 2 5 4 11 12 13 7 8 4 4))
 
 (define *answer* '())
 
@@ -52,17 +47,4 @@
   (attempt i depth)
   (car *answer*))
 
-(define (run-benchmark)
-  (let* ((count (read))
-         (input1 (read))
-         (input2 (read))
-         (output (read))
-         (s3 (number->string count))
-         (s2 (number->string input2))
-         (s1 (number->string input1))
-         (name "triangl"))
-    (run-r7rs-benchmark
-     (string-append name ":" s1 ":" s2 ":" s3)
-     count
-     (lambda () (test (hide count input1) (hide count input2)))
-     (lambda (result) (equal? result output)))))
+(test 22 2)
