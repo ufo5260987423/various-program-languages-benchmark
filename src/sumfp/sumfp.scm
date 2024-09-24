@@ -7,16 +7,4 @@
     (if (< i 0.)
         sum
         (loop (- i 1.) (+ i sum)))))
-
-(define (run-benchmark)
-  (let* ((count (read))
-         (input1 (read))
-         (output (read))
-         (s2 (number->string count))
-         (s1 (number->string input1))
-         (name "sumfp"))
-    (run-r7rs-benchmark
-     (string-append name ":" s1 ":" s2)
-     count
-     (lambda () (run (hide count input1)))
-     (lambda (result) (equal? result output)))))
+(run 8000)
