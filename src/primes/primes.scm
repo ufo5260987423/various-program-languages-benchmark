@@ -24,15 +24,4 @@
 (define (primes<= n)
   (sieve (interval-list 2 n)))
 
-(define (run-benchmark)
-  (let* ((count (read))
-         (input1 (read))
-         (output (read))
-         (s2 (number->string count))
-         (s1 (number->string input1))
-         (name "primes"))
-    (run-r7rs-benchmark
-     (string-append name ":" s1 ":" s2)
-     count
-     (lambda () (primes<= (hide count input1)))
-     (lambda (result) (equal? result output)))))
+(primes<= 6000)

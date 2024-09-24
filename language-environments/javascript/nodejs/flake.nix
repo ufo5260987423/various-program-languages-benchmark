@@ -19,7 +19,7 @@
         nodejs
       ];
       shellHook = ''
-        for test in $(find ../../../src | grep ".js$")
+        for test in $(find ./src | grep ".js$")
         do
           echo $test
           time node $test

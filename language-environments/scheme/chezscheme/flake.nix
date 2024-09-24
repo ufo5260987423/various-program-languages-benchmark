@@ -21,7 +21,7 @@
         akku
       ];
       shellHook = ''
-        for test in $(find ../../../src | grep ".scm$")
+        for test in $(find ./src | grep ".scm$")
         do
           echo $test
           time scheme --optimize-level 3 --script $test

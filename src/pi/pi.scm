@@ -2,7 +2,7 @@
 
 ;; See http://mathworld.wolfram.com/Pi.html for the various algorithms.
 
-(import (rnrs))
+(import (chezscheme))
 
 (define (square-root x)
   (call-with-values
@@ -10,6 +10,9 @@
      (exact-integer-sqrt x))
    (lambda (q r)
      q)))
+
+(define (square a)
+  (* a a))
 
 (define (quartic-root x)
   (square-root (square-root x)))
@@ -99,22 +102,4 @@
         (cons (list b2 (- bs b2) (- b4 b2))
               (pies (+ n s) m s)))))
 
-(define (run-benchmark)
-  (let* ((count (read))
-         (input1 (read))
-         (input2 (read))
-         (input3 (read))
-         (output (read))
-         (s4 (number->string count))
-         (s3 (number->string input3))
-         (s2 (number->string input2))
-         (s1 (number->string input1))
-         (name "pi"))
-    (run-r7rs-benchmark
-     (string-append name ":" s1 ":" s2 ":" s3 ":" s4)
-     count
-     (lambda ()
-       (pies (hide count input1)
-             (hide count input2)
-             (hide count input3)))
-     (lambda (result) (equal? result output)))))
+(pies 50 500 50)
