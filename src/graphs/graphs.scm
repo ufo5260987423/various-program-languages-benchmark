@@ -1,6 +1,6 @@
 ;;; GRAPHS -- Obtained from Andrew Wright.
 
-(import (scheme base) (scheme read) (scheme write) (scheme time))
+(import (rnrs))
 
 ;;;; ==== util.ss ====
 

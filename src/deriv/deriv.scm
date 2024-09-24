@@ -1,6 +1,6 @@
 ;;; DERIV -- Symbolic derivation.
 
-(import (scheme base) (scheme cxr) (scheme read) (scheme write) (scheme time))
+(import (rnrs))
 
 ;;; Returns the wrong answer for quotients.
 ;;; Fortunately these aren't used in the benchmark.

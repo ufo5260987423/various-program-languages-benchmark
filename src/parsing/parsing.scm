@@ -30,7 +30,7 @@
 ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-(import (scheme base) (scheme char) (scheme file) (scheme read) (scheme write) (scheme time))
+(import (rnrs))
 
 (define (parsing-benchmark . rest)
   (let* ((n (if (null? rest) 1000 (car rest)))

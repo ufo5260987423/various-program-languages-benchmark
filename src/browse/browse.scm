@@ -1,7 +1,7 @@
 ;;; BROWSE -- Benchmark to create and browse through
 ;;; an AI-like data base of units.
 
-(import (scheme base) (scheme read) (scheme write) (scheme time))
+(import (rnrs))
 
 (define (lookup key table)
   (let loop ((x table))

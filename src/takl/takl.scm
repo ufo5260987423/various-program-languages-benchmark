@@ -1,6 +1,6 @@
 ;;; TAKL -- The TAKeuchi function using lists as counters.
 
-(import (scheme base) (scheme read) (scheme write) (scheme time))
+(import (rnrs))
 
 (define (listn n)
   (if (= n 0)

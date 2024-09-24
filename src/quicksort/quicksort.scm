@@ -1,7 +1,7 @@
 ;; This is probably from Lars Hansen's MS thesis.
 ;; The quick-1 benchmark.  (Figure 35, page 132.)
 
-(import (scheme base) (scheme read) (scheme write) (scheme time))
+(import (rnrs))
 
 (define (quick-1 v less?)
 

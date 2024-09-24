@@ -1,6 +1,6 @@
 ;;; MATRIX -- Obtained from Andrew Wright.
 
-(import (scheme base) (scheme read) (scheme write) (scheme time))
+(import (rnrs))
 
 ;;; We need R6RS div and mod for this benchmark.
 

@@ -1,6 +1,6 @@
 ;;; STRING -- One of the Kernighan and Van Wyk benchmarks.
 
-(import (scheme base) (scheme read) (scheme write) (scheme time))
+(import (rnrs))
 
 (define s "abcdef")
 

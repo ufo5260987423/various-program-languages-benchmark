@@ -7,7 +7,7 @@
 ;;; is produced, and the lines are then written to the output
 ;;; in the reverse of the order in which they were read.
 
-(import (scheme base) (scheme file) (scheme read) (scheme write) (scheme time))
+(import (rnrs))
 
 (define (tail-r-aux port file-so-far)
   (let ((x (read-line port)))

@@ -1,6 +1,6 @@
 ;;; PNPOLY - Test if a point is contained in a 2D polygon.
 
-(import (scheme base) (scheme read) (scheme write) (scheme time))
+(import (rnrs))
 
 (define (pt-in-poly2 xp yp x y)
   (let loop ((c #f) (i (- (vector-length xp) 1)) (j 0))

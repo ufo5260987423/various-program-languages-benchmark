@@ -1,6 +1,6 @@
 ;;; PRIMES -- Compute primes less than n, written by Eric Mohr.
 
-(import (scheme base) (scheme read) (scheme write) (scheme time))
+(import (rnrs))
 
 (define  (interval-list m n)
   (if (> m n)

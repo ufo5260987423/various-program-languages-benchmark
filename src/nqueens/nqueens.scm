@@ -1,6 +1,6 @@
 ;;; NQUEENS -- Compute number of solutions to 8-queens problem.
 
-(import (scheme base) (scheme read) (scheme write) (scheme time))
+(import (rnrs))
 
 (define trace? #f)
 

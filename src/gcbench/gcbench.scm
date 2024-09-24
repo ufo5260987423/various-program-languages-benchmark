@@ -32,7 +32,7 @@
 ;; of free memory.  There is no portable way to do this in Scheme; each
 ;; implementation needs its own version.
 
-(import (scheme base) (scheme read) (scheme write) (scheme time))
+(import (rnrs))
 
 (define (run-benchmark2 name thunk)
   (display name)

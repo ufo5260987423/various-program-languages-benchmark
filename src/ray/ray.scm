@@ -1,7 +1,7 @@
 ;;; RAY -- Ray-trace a simple scene with spheres, generating a ".pgm" file.
 ;;; Translated to Scheme from Paul Graham's book ANSI Common Lisp, Example 9.8
 
-(import (scheme base) (scheme inexact) (scheme file) (scheme read) (scheme write) (scheme time))
+(import (rnrs))
 
 (define (make-point x y z)
   (vector x y z))

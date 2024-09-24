@@ -1,6 +1,6 @@
 ;;; SUM -- Compute sum of integers from 0 to 10000
 
-(import (scheme base) (scheme read) (scheme write) (scheme time))
+(import (rnrs))
 
 (define (run n)
   (let loop ((i n) (sum 0))

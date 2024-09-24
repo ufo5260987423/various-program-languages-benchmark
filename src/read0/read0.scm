@@ -8,7 +8,7 @@
 ;;; FIXME: this needs a lot of work to convert all of its tests
 ;;; to R7RS.
 
-(import (scheme base) (scheme char) (scheme file) (scheme read) (scheme write) (scheme time))
+(import (rnrs))
 
 ;;; Fake R6RS procedure.
 

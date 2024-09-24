@@ -1,6 +1,6 @@
 ;;; FIBFP -- Computes fib(35) using floating point
 
-(import (scheme base) (scheme read) (scheme write) (scheme time))
+(import (rnrs))
 
 (define (fibfp n)
   (if (< n 2.)

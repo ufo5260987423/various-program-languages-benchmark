@@ -1,6 +1,6 @@
 ;;; PEVAL -- A simple partial evaluator for Scheme, written by Marc Feeley.
 
-(import (scheme base) (scheme cxr) (scheme read) (scheme write) (scheme time))
+(import (rnrs))
 
 ;;------------------------------------------------------------------------------
 

@@ -1,5 +1,5 @@
 ;;; FFT - Fast Fourier Transform, translated from "Numerical Recipes in C"
-(import (scheme base) (scheme inexact) (scheme read) (scheme write) (scheme time))
+(import (rnrs))
 
 (define (four1 data)
   (let ((n (vector-length data))

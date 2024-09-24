@@ -4,7 +4,7 @@
                                         ;This file is compatible for the dialect other
                                         ;(c) Dorai Sitaram, Rice U., 1991, 1994
 
-(import (scheme base) (scheme char) (scheme file) (scheme read) (scheme write) (scheme time))
+(import (rnrs))
 
 (define *op-sys* 'unix)
 

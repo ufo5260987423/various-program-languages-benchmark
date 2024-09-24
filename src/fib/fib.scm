@@ -1,6 +1,6 @@
 ;;; FIB -- A classic benchmark, computes fib(n) inefficiently.
 
-(import (scheme base) (scheme read) (scheme write) (scheme time))
+(import (rnrs))
 
 (define (fib n)
   (if (< n 2)

@@ -1,7 +1,7 @@
 ;;; MBROT -- Generation of Mandelbrot set fractal
 ;;; using Scheme's complex numbers.
 
-(import (scheme base) (scheme complex) (scheme read) (scheme write) (scheme time))
+(import (rnrs))
 
 (define (count z0 step z)
 

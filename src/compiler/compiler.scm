@@ -1,4 +1,4 @@
-(import (scheme base) (scheme file) (scheme cxr) (scheme char) (scheme read) (scheme write) (scheme time) (scheme complex))
+(import (rnrs))
 
 ;;; Needed for R7RS.
 

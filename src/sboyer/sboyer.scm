@@ -55,7 +55,7 @@
 ;; The second phase creates the test problem, and tests to see
 ;; whether it is implied by the lemmas.
 
-(import (scheme base) (scheme cxr) (scheme read) (scheme write) (scheme time))
+(import (rnrs))
 
 (define (run-benchmark)
   (let* ((count (read))

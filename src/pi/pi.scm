@@ -2,7 +2,7 @@
 
 ;; See http://mathworld.wolfram.com/Pi.html for the various algorithms.
 
-(import (scheme base) (scheme read) (scheme write) (scheme time))
+(import (rnrs))
 
 (define (square-root x)
   (call-with-values

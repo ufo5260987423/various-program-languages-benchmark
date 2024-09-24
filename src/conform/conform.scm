@@ -1,6 +1,6 @@
 ;;; CONFORM -- Type checker, written by Jim Miller.
 
-(import (scheme base) (scheme read) (scheme write) (scheme time))
+(import (rnrs))
 
 ;;; Functional and unstable
 

@@ -18,7 +18,7 @@
 
 ;; -- MATH UTILITIES -----------------------------------------------------------
 
-(import (scheme base) (scheme inexact) (scheme read) (scheme write) (scheme time))
+(import (rnrs))
 
 ;; replaced (nuc-const by '#( globally
 ;; (define-syntax nuc-const

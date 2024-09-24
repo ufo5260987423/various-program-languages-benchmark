@@ -1,6 +1,6 @@
 ;;; LATTICE -- Obtained from Andrew Wright.
 
-(import (scheme base) (scheme read) (scheme write) (scheme time))
+(import (rnrs))
 
 ;; Given a comparison routine that returns one of
 ;;       less

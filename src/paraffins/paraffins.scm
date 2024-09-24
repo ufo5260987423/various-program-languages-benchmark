@@ -1,6 +1,6 @@
 ;;; PARAFFINS -- Compute how many paraffins exist with N carbon atoms.
 
-(import (scheme base) (scheme read) (scheme write) (scheme time))
+(import (rnrs))
 
 (define (gen n)
   (let* ((n/2 (quotient n 2))

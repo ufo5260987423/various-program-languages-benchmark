@@ -1,6 +1,6 @@
 ;;; DESTRUC -- Destructive operation benchmark.
 
-(import (scheme base) (scheme read) (scheme write) (scheme time))
+(import (rnrs))
 
 (define (append-to-tail! x y)
   (if (null? x)

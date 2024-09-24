@@ -1,7 +1,7 @@
 ;;; CAT -- One of the Kernighan and Van Wyk benchmarks.
 ;;; Rewritten by Will Clinger into more idiomatic Scheme.
 
-(import (scheme base) (scheme file) (scheme read) (scheme write) (scheme time))
+(import (rnrs))
 
 (define (catport in out)
   (let ((x (read-char in)))

@@ -1,6 +1,6 @@
 ;;; SIMPLEX -- Simplex algorithm.
 
-(import (scheme base) (scheme read) (scheme write) (scheme time))
+(import (rnrs))
 
 (define (matrix-rows a) (vector-length a))
 (define (matrix-columns a) (vector-length (vector-ref a 0)))

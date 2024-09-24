@@ -123,7 +123,7 @@
 ;;   Enders of V     = (5 19 20)
 ;;   Predictors of V = (15 17)
 
-(import (scheme base) (scheme read) (scheme write) (scheme time))
+(import (rnrs))
 
 (define (make-parser grammar lexer)
 

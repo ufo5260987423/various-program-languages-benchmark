@@ -1,4 +1,4 @@
-(import (scheme base) (scheme cxr) (scheme file) (scheme read) (scheme write) (scheme time))
+(import (rnrs))
 
 ;;; DYNAMIC -- Obtained from Andrew Wright.
 

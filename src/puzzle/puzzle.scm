@@ -1,6 +1,6 @@
 ;;; PUZZLE -- Forest Baskett's Puzzle benchmark, originally written in Pascal.
 
-(import (scheme base) (scheme read) (scheme write) (scheme time))
+(import (rnrs))
 
 (define (my-iota n)
   (do ((n n (- n 1))

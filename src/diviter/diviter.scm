@@ -1,6 +1,6 @@
 ;;; DIVITER -- Benchmark which divides by 2 using lists of n ()'s.
 
-(import (scheme base) (scheme read) (scheme write) (scheme time))
+(import (rnrs))
 
 (define (create-n n)
   (do ((n n (- n 1))

@@ -1,6 +1,6 @@
 ;;; TRIANGL -- Board game benchmark.
 
-(import (scheme base) (scheme read) (scheme write) (scheme time))
+(import (rnrs))
 
 (define *board*
   (list->vector '(1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1)))

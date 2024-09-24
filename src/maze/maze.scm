@@ -1,6 +1,6 @@
 ;;; MAZE -- Constructs a maze on a hexagonal grid, written by Olin Shivers.
 
-(import (scheme base) (scheme read) (scheme write) (scheme time))
+(import (rnrs))
 
 ;;; R6RS procedures needed by this benchmark.
 

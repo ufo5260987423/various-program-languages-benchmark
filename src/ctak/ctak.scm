@@ -1,6 +1,6 @@
 ;;; CTAK -- A version of the TAK procedure that uses continuations.
 
-(import (scheme base) (scheme read) (scheme write) (scheme time))
+(import (rnrs))
 
 (define (ctak x y z)
   (call-with-current-continuation

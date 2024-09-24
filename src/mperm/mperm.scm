@@ -13,7 +13,7 @@
 ;; 000820 / wdc Added the MpermNKL benchmark; revised for new run-benchmark.
 ;; 071127 / wdc Simplified and ported for R6RS.
 
-(import (scheme base) (scheme read) (scheme write) (scheme time))
+(import (rnrs))
 
 ;; This benchmark is in three parts.  Each tests a different aspect of
 ;; the memory system.

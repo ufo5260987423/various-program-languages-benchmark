@@ -1,6 +1,6 @@
 ;;; ARRAY1 -- One of the Kernighan and Van Wyk benchmarks.
 
-(import (scheme base) (scheme read) (scheme write) (scheme time))
+(import (rnrs))
 
 (define (create-x n)
   (define result (make-vector n))

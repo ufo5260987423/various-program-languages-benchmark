@@ -2,7 +2,7 @@
 
 ;; - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-(import (scheme base) (scheme cxr) (scheme inexact) (scheme char) (scheme file) (scheme read) (scheme write) (scheme time))
+(import (rnrs))
 
 (define (scheme-eval expr)
   (let ((code (scheme-comp expr scheme-global-environment)))

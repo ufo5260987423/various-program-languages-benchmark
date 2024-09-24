@@ -1,6 +1,6 @@
 ;;; SUM1 -- One of the Kernighan and Van Wyk benchmarks.
 
-(import (scheme base) (scheme file) (scheme read) (scheme write) (scheme time))
+(import (rnrs))
 
 (define (sumport port sum-so-far)
   (let ((x (read port)))
