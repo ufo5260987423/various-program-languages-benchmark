@@ -6,4 +6,4 @@ var ack = function (m, n){
     else return ack(m-1, ack(m , n-1));
 }
 
-ack(3,13);
+ack(3,10);

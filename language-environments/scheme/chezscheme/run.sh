@@ -9,5 +9,4 @@ do
     success=$(($? || $success))
 done;
 
-
 cd ../../../
