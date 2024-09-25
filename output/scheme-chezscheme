@@ -1,9 +1,9 @@
 Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 x86_64 GNU/Linux
 	Command being timed: "scheme --optimize-level 3 --script ./src/ack/ack.scm"
-	User time (seconds): 0.19
+	User time (seconds): 0.33
 	System time (seconds): 0.02
 	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.22
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.36
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
@@ -11,7 +11,30 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Maximum resident set size (kbytes): 47232
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 11426
+	Minor (reclaiming a frame) page faults: 11427
+	Voluntary context switches: 1
+	Involuntary context switches: 14
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "scheme --optimize-level 3 --script ./src/cpstack/cpstak.scm"
+	User time (seconds): 0.05
+	System time (seconds): 0.02
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.07
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 47232
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 11408
 	Voluntary context switches: 1
 	Involuntary context switches: 1
 	Swaps: 0
@@ -22,168 +45,7 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Signals delivered: 0
 	Page size (bytes): 4096
 	Exit status: 0
-	Command being timed: "scheme --optimize-level 3 --script ./src/cpstack/cpstak.scm"
-	User time (seconds): 0.04
-	System time (seconds): 0.02
-	Percent of CPU this job got: 97%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.07
-	Average shared text size (kbytes): 0
-	Average unshared data size (kbytes): 0
-	Average stack size (kbytes): 0
-	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 47104
-	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 11407
-	Voluntary context switches: 0
-	Involuntary context switches: 5
-	Swaps: 0
-	File system inputs: 0
-	File system outputs: 0
-	Socket messages sent: 0
-	Socket messages received: 0
-	Signals delivered: 0
-	Page size (bytes): 4096
-	Exit status: 0
 	Command being timed: "scheme --optimize-level 3 --script ./src/sum/sum.scm"
-	User time (seconds): 0.08
-	System time (seconds): 0.02
-	Percent of CPU this job got: 98%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.11
-	Average shared text size (kbytes): 0
-	Average unshared data size (kbytes): 0
-	Average stack size (kbytes): 0
-	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 47232
-	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 11404
-	Voluntary context switches: 1
-	Involuntary context switches: 9
-	Swaps: 0
-	File system inputs: 0
-	File system outputs: 0
-	Socket messages sent: 0
-	Socket messages received: 0
-	Signals delivered: 0
-	Page size (bytes): 4096
-	Exit status: 0
-	Command being timed: "scheme --optimize-level 3 --script ./src/nqueens/nqueens.scm"
-	User time (seconds): 5.22
-	System time (seconds): 0.01
-	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.26
-	Average shared text size (kbytes): 0
-	Average unshared data size (kbytes): 0
-	Average stack size (kbytes): 0
-	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 47232
-	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 13445
-	Voluntary context switches: 1
-	Involuntary context switches: 22
-	Swaps: 0
-	File system inputs: 0
-	File system outputs: 0
-	Socket messages sent: 0
-	Socket messages received: 0
-	Signals delivered: 0
-	Page size (bytes): 4096
-	Exit status: 0
-	Command being timed: "scheme --optimize-level 3 --script ./src/string/string.scm"
-	User time (seconds): 1.09
-	System time (seconds): 1.21
-	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.31
-	Average shared text size (kbytes): 0
-	Average unshared data size (kbytes): 0
-	Average stack size (kbytes): 0
-	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 289956
-	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 778904
-	Voluntary context switches: 1
-	Involuntary context switches: 20
-	Swaps: 0
-	File system inputs: 0
-	File system outputs: 0
-	Socket messages sent: 0
-	Socket messages received: 0
-	Signals delivered: 0
-	Page size (bytes): 4096
-	Exit status: 0
-	Command being timed: "scheme --optimize-level 3 --script ./src/triangl/triangl.scm"
-	User time (seconds): 0.10
-	System time (seconds): 0.02
-	Percent of CPU this job got: 98%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.12
-	Average shared text size (kbytes): 0
-	Average unshared data size (kbytes): 0
-	Average stack size (kbytes): 0
-	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 47232
-	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 12249
-	Voluntary context switches: 0
-	Involuntary context switches: 2
-	Swaps: 0
-	File system inputs: 0
-	File system outputs: 0
-	Socket messages sent: 0
-	Socket messages received: 0
-	Signals delivered: 0
-	Page size (bytes): 4096
-	Exit status: 0
-	Command being timed: "scheme --optimize-level 3 --script ./src/fib/fib.scm"
-	User time (seconds): 2.12
-	System time (seconds): 0.02
-	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.15
-	Average shared text size (kbytes): 0
-	Average unshared data size (kbytes): 0
-	Average stack size (kbytes): 0
-	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 47232
-	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 11404
-	Voluntary context switches: 1
-	Involuntary context switches: 8
-	Swaps: 0
-	File system inputs: 0
-	File system outputs: 0
-	Socket messages sent: 0
-	Socket messages received: 0
-	Signals delivered: 0
-	Page size (bytes): 4096
-	Exit status: 0
-	Command being timed: "scheme --optimize-level 3 --script ./src/sumfp/sumfp-ignore-setuptime.scm"
-	User time (seconds): 1.29
-	System time (seconds): 0.02
-	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.32
-	Average shared text size (kbytes): 0
-	Average unshared data size (kbytes): 0
-	Average stack size (kbytes): 0
-	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 47232
-	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 13439
-	Voluntary context switches: 1
-	Involuntary context switches: 6
-	Swaps: 0
-	File system inputs: 0
-	File system outputs: 0
-	Socket messages sent: 0
-	Socket messages received: 0
-	Signals delivered: 0
-	Page size (bytes): 4096
-	Exit status: 0
-	Command being timed: "scheme --optimize-level 3 --script ./src/sumfp/sumfp.scm"
 	User time (seconds): 0.05
 	System time (seconds): 0.02
 	Percent of CPU this job got: 97%
@@ -197,7 +59,145 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Major (requiring I/O) page faults: 0
 	Minor (reclaiming a frame) page faults: 11405
 	Voluntary context switches: 1
-	Involuntary context switches: 14
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "scheme --optimize-level 3 --script ./src/nqueens/nqueens.scm"
+	User time (seconds): 5.30
+	System time (seconds): 0.02
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.34
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 47232
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13446
+	Voluntary context switches: 1
+	Involuntary context switches: 9
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "scheme --optimize-level 3 --script ./src/string/string.scm"
+	User time (seconds): 1.07
+	System time (seconds): 1.22
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.31
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 290036
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 778905
+	Voluntary context switches: 1
+	Involuntary context switches: 6
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "scheme --optimize-level 3 --script ./src/triangl/triangl.scm"
+	User time (seconds): 0.18
+	System time (seconds): 0.02
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.20
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 47232
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 12250
+	Voluntary context switches: 1
+	Involuntary context switches: 3
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "scheme --optimize-level 3 --script ./src/fib/fib.scm"
+	User time (seconds): 1.58
+	System time (seconds): 0.02
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.61
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 47232
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 11405
+	Voluntary context switches: 0
+	Involuntary context switches: 17
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "scheme --optimize-level 3 --script ./src/sumfp/sumfp-ignore-setuptime.scm"
+	User time (seconds): 1.27
+	System time (seconds): 0.03
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.31
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 47232
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13440
+	Voluntary context switches: 1
+	Involuntary context switches: 6
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "scheme --optimize-level 3 --script ./src/sumfp/sumfp.scm"
+	User time (seconds): 0.07
+	System time (seconds): 0.02
+	Percent of CPU this job got: 98%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.09
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 47104
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 11406
+	Voluntary context switches: 1
+	Involuntary context switches: 5
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -207,10 +207,10 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Page size (bytes): 4096
 	Exit status: 0
 	Command being timed: "scheme --optimize-level 3 --script ./src/primes/primes.scm"
-	User time (seconds): 0.06
+	User time (seconds): 0.05
 	System time (seconds): 0.02
-	Percent of CPU this job got: 100%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.08
+	Percent of CPU this job got: 97%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.07
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
@@ -218,9 +218,9 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Maximum resident set size (kbytes): 47232
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 12716
+	Minor (reclaiming a frame) page faults: 12717
 	Voluntary context switches: 1
-	Involuntary context switches: 4
+	Involuntary context switches: 1
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -232,7 +232,30 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Command being timed: "scheme --optimize-level 3 --script ./src/deriv/deriv.scm"
 	User time (seconds): 0.05
 	System time (seconds): 0.01
-	Percent of CPU this job got: 97%
+	Percent of CPU this job got: 98%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.06
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 47232
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 11421
+	Voluntary context switches: 1
+	Involuntary context switches: 2
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "scheme --optimize-level 3 --script ./src/deriv/deriv-ignore-setuptime.scm"
+	User time (seconds): 0.06
+	System time (seconds): 0.02
+	Percent of CPU this job got: 98%
 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.08
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
@@ -241,9 +264,9 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Maximum resident set size (kbytes): 47232
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 11420
+	Minor (reclaiming a frame) page faults: 12381
 	Voluntary context switches: 1
-	Involuntary context switches: 2
+	Involuntary context switches: 1
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
