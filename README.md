@@ -29,7 +29,7 @@ All benchmarks are listed in [src directory](./src), I tried my best to make dif
 | [string](./src/string)| String operation mainly on string concating and spliting. | Different languages usually have their own specific details on string model, which lead merely same operations in different languages cause big performance barrier. | [Javascript/bun](./output/javascript-bun) |
 | [sum](./src/sum)| Sum up integers from 1 to n with recursion. |  | [Javascript/bun](./output/javascript-bun)|
 | [sumfp](./src/sumfp)| Sum up integers' float representation from 1.0 to n with recursion. |  | [Javascript/bun](./output/javascript-bun)|
-| [sumfp-ignore-setuptime](./src/sumfp)| Do sum up operation many times in order to ignore setup time. | Chez Scheme overheads NodeJS, but clearly doesn't compete Bun. Now, my question becomes: how does Bun do? | [Javascript/bun](./output/javascript-bun)|
+| [sumfp-ignore-setuptime](./src/sumfp)| Does sum up operation many times in order to ignore setup time. | Chez Scheme overheads NodeJS, but clearly doesn't compete Bun. Now, my question is: how does Bun do? | [Javascript/bun](./output/javascript-bun)|
 | [fib](./src/fib)| Fibonacci | | [Javascript/bun](./output/javascript-bun)|
 | [nqueens](./src/nqueens)| N-queen problem.|  |[Scheme/ChezScheme](./output/scheme-chezscheme)|
 | [triangl](./src/triangl)| Well, I don't know what it is.| | [Javascript/bun](./output/javascript-bun)|
