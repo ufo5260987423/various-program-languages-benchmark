@@ -1,18 +1,19 @@
 Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 x86_64 GNU/Linux
+Command terminated by signal 2
 	Command being timed: "node ./src/ack/ack.js"
-	User time (seconds): 0.28
-	System time (seconds): 0.01
-	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.30
+	User time (seconds): 0.04
+	System time (seconds): 0.02
+	Percent of CPU this job got: 97%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.07
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 46720
+	Maximum resident set size (kbytes): 39680
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 2776
-	Voluntary context switches: 33
+	Minor (reclaiming a frame) page faults: 2396
+	Voluntary context switches: 16
 	Involuntary context switches: 3
 	Swaps: 0
 	File system inputs: 0
@@ -22,20 +23,43 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Signals delivered: 0
 	Page size (bytes): 4096
 	Exit status: 0
-	Command being timed: "node ./src/sum/sum.js"
-	User time (seconds): 0.02
-	System time (seconds): 0.01
-	Percent of CPU this job got: 100%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.03
+	Command being timed: "node ./src/cpstack/cpstak.js"
+	User time (seconds): 0.06
+	System time (seconds): 0.02
+	Percent of CPU this job got: 96%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.09
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 43264
+	Maximum resident set size (kbytes): 42624
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2523
+	Voluntary context switches: 38
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "node ./src/sum/sum.js"
+	User time (seconds): 0.03
+	System time (seconds): 0.01
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.04
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 43392
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
 	Minor (reclaiming a frame) page faults: 2740
-	Voluntary context switches: 31
+	Voluntary context switches: 32
 	Involuntary context switches: 2
 	Swaps: 0
 	File system inputs: 0
@@ -45,21 +69,22 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Signals delivered: 0
 	Page size (bytes): 4096
 	Exit status: 0
+Command terminated by signal 2
 	Command being timed: "node ./src/nqueens/nqueens.js"
-	User time (seconds): 65.71
-	System time (seconds): 0.09
-	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:06.01
+	User time (seconds): 0.32
+	System time (seconds): 0.02
+	Percent of CPU this job got: 101%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.34
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 81280
+	Maximum resident set size (kbytes): 50304
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 11515
-	Voluntary context switches: 5448
-	Involuntary context switches: 266
+	Minor (reclaiming a frame) page faults: 3703
+	Voluntary context switches: 178
+	Involuntary context switches: 10
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -68,44 +93,22 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Signals delivered: 0
 	Page size (bytes): 4096
 	Exit status: 0
+Command terminated by signal 2
 	Command being timed: "node ./src/string/string.js"
-	User time (seconds): 0.08
-	System time (seconds): 0.09
-	Percent of CPU this job got: 102%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.17
-	Average shared text size (kbytes): 0
-	Average unshared data size (kbytes): 0
-	Average stack size (kbytes): 0
-	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 76340
-	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 47757
-	Voluntary context switches: 127
-	Involuntary context switches: 4
-	Swaps: 0
-	File system inputs: 0
-	File system outputs: 0
-	Socket messages sent: 0
-	Socket messages received: 0
-	Signals delivered: 0
-	Page size (bytes): 4096
-	Exit status: 0
-	Command being timed: "node ./src/triangl/triangl.js"
-	User time (seconds): 0.02
+	User time (seconds): 0.01
 	System time (seconds): 0.00
-	Percent of CPU this job got: 94%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.03
+	Percent of CPU this job got: 90%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 42624
+	Maximum resident set size (kbytes): 26880
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 2523
-	Voluntary context switches: 31
-	Involuntary context switches: 1
+	Minor (reclaiming a frame) page faults: 953
+	Voluntary context switches: 15
+	Involuntary context switches: 2
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -114,21 +117,46 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Signals delivered: 0
 	Page size (bytes): 4096
 	Exit status: 0
+Command terminated by signal 2
+	Command being timed: "node ./src/triangl/triangl.js"
+	User time (seconds): 0.01
+	System time (seconds): 0.01
+	Percent of CPU this job got: 92%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 33152
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1643
+	Voluntary context switches: 17
+	Involuntary context switches: 2
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Command terminated by signal 2
 	Command being timed: "node ./src/fib/fib.js"
-	User time (seconds): 2.66
+	User time (seconds): 0.00
 	System time (seconds): 0.01
-	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.68
+	Percent of CPU this job got: 95%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 46080
+	Maximum resident set size (kbytes): 25984
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 2622
-	Voluntary context switches: 25
-	Involuntary context switches: 13
+	Minor (reclaiming a frame) page faults: 939
+	Voluntary context switches: 16
+	Involuntary context switches: 2
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -137,20 +165,21 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Signals delivered: 0
 	Page size (bytes): 4096
 	Exit status: 0
+Command terminated by signal 2
 	Command being timed: "node ./src/sumfp/sumfp.js"
-	User time (seconds): 0.02
-	System time (seconds): 0.01
-	Percent of CPU this job got: 100%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.03
+	User time (seconds): 0.01
+	System time (seconds): 0.00
+	Percent of CPU this job got: 96%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 43392
+	Maximum resident set size (kbytes): 32384
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 2714
-	Voluntary context switches: 32
+	Minor (reclaiming a frame) page faults: 1486
+	Voluntary context switches: 17
 	Involuntary context switches: 1
 	Swaps: 0
 	File system inputs: 0
@@ -160,21 +189,22 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Signals delivered: 0
 	Page size (bytes): 4096
 	Exit status: 0
+Command terminated by signal 2
 	Command being timed: "node ./src/primes/primes.js"
-	User time (seconds): 0.69
-	System time (seconds): 0.19
-	Percent of CPU this job got: 134%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.66
+	User time (seconds): 0.01
+	System time (seconds): 0.00
+	Percent of CPU this job got: 91%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 288000
+	Maximum resident set size (kbytes): 27008
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 63122
-	Voluntary context switches: 842
-	Involuntary context switches: 9
+	Minor (reclaiming a frame) page faults: 955
+	Voluntary context switches: 15
+	Involuntary context switches: 3
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -183,21 +213,22 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Signals delivered: 0
 	Page size (bytes): 4096
 	Exit status: 0
+Command terminated by signal 2
 	Command being timed: "node ./src/deriv/deriv.js"
-	User time (seconds): 0.02
-	System time (seconds): 0.01
-	Percent of CPU this job got: 100%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.03
+	User time (seconds): 0.01
+	System time (seconds): 0.00
+	Percent of CPU this job got: 91%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 42240
+	Maximum resident set size (kbytes): 30720
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 2525
-	Voluntary context switches: 37
-	Involuntary context switches: 1
+	Minor (reclaiming a frame) page faults: 1345
+	Voluntary context switches: 15
+	Involuntary context switches: 5
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
