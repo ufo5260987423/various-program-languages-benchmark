@@ -6,11 +6,18 @@ Now this repository support comparison between Scheme and Javascript.
 ## How to run benchmarks on your own computor
 ### Prerequest
 * [Nix](https://nixos.org/) is a tool that takes a unique approach to package management and system configuration. I use it to make reproducible environment to run benchmark. You may need to install it on you own system.
+* Time command. Bash-default `time` command is a shell keyword. This project requires real time command and some linux distribution dosen't install it. On my nixos laptop, I install time command with 
+```nix
+environment.systemPackages = [
+  pkgs.time
+];
+```
 
-### Run
+### Run & get result
 ```bash
 bash run.sh
 ```
+All results are in directory [`./output`](./output).
 
 ## Benchmark List
 All benchmarks are listed in [src directory](./src), I tried my best to make different languages consistently performs similar operations on same work. And now, all benchmarks are imagrated from [here](https://github.com/ecraven/r7rs-benchmarks), and I'll gradually add other benchmarks.

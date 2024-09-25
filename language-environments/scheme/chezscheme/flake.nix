@@ -20,10 +20,11 @@
         chez
       ];
       shellHook = ''
+        echo $(uname -a) > ./output/scheme-chezscheme
         for test in $(find ./src | grep ".scm$")
         do
           echo $test
-          time scheme --optimize-level 3 --script $test
+          $(which time) -av -o ./output/scheme-chezscheme scheme --optimize-level 3 --script $test
         done;
         exit
       '';

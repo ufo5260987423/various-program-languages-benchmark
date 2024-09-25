@@ -19,10 +19,11 @@
         nodejs
       ];
       shellHook = ''
+        echo $(uname -a) > ./output/javascript-nodejs
         for test in $(find ./src | grep ".js$")
         do
           echo $test
-          time node $test
+          $(which time) -av -o ./output/javascript-nodejs node $test
         done;
         exit
       '';
