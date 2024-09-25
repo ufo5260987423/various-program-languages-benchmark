@@ -25,13 +25,13 @@ All benchmarks are listed in [src directory](./src), I tried my best to make dif
 
 | Benchmark | Description | NOTE | Winner|
 | --- | --- | --- |--- |
-| [ack](./src/ack)| A recursive function with more than 1 parameter,it's seemed to evaluate scheme language's tail optimization. | For many other languages like javascript, tail optimization is usually not facilitated. In order to do the detailed comparison, I have to call ack function as `ack(3,10)`. Which is too small  to perform scheme's advantage. | Scheme |
-| [primes](./src/primes)| A recursive function calculates primes number. | For many other languages like javascript, tail optimization is usually not facilitated. | Scheme |
-| [string](./src/string)| String operation mainly on string concating and spliting. | Different languages usually have their own specific details on string model, which lead merely same operations in different languages cause big performance barrier. | Javascript |
-| [sum](./src/sum)| Sum up integers from 1 to n with recursion. | I don't know why javascript is faster than chez scheme. | Javascript |
-| [sumfp](./src/sumfp)| Sum up integers' float representation from 1.0 to n with recursion. | I don't know why javascript is faster than chez scheme. | Javascript|
-| [fib](./src/fib)| Fibonacci | | Scheme |
-| [nqueens](./src/nqueens)| N-queen problem.|  |Scheme|
-| [triangl](./src/triangl)| Well, I don't know what it is.|| Javascript |
-| [deriv](./src/deriv)| List derivation for symbolic computation. | | Javascript |
-| [cpstack](./src/cpstack)| Cps style computation. | | Javascript |
+| [ack](./src/ack)| A recursive function with more than 1 parameter,it's seemed to evaluate scheme language's tail optimization. | For many other languages like javascript, tail optimization is usually not facilitated. In order to do the detailed comparison, I have to call ack function as `ack(3,10)`. Which is too small  to perform scheme's advantage. | [Scheme/ChezScheme](./output/scheme-chezscheme) |
+| [primes](./src/primes)| A recursive function calculates primes number. | For many other languages like javascript, tail optimization is usually not facilitated. | [Scheme/ChezScheme](./output/scheme-chezscheme) |
+| [string](./src/string)| String operation mainly on string concating and spliting. | Different languages usually have their own specific details on string model, which lead merely same operations in different languages cause big performance barrier. | [Javascript/bun](./output/javascript-bun) |
+| [sum](./src/sum)| Sum up integers from 1 to n with recursion. | I don't know why javascript is faster than chez scheme. | [Javascript/bun](./output/javascript-bun)|
+| [sumfp](./src/sumfp)| Sum up integers' float representation from 1.0 to n with recursion. | I don't know why javascript is faster than chez scheme. | [Javascript/bun](./output/javascript-bun)|
+| [fib](./src/fib)| Fibonacci | | [Javascript/bun](./output/javascript-bun)|
+| [nqueens](./src/nqueens)| N-queen problem.|  |[Scheme/ChezScheme](./output/scheme-chezscheme)|
+| [triangl](./src/triangl)| Well, I don't know what it is.| | [Javascript/bun](./output/javascript-bun)|
+| [deriv](./src/deriv)| List derivation for symbolic computation. | | [Javascript/bun](./output/javascript-bun)|
+| [cpstack](./src/cpstack)| Cps style computation. | | [Javascript/bun](./output/javascript-bun)|
