@@ -33,3 +33,4 @@ All benchmarks are listed in [src directory](./src), I tried my best to make dif
 | [fib](./src/fib)| Fibonacci | | Scheme |
 | [nqueens](./src/nqueens)| N-queen problem.|  |Scheme|
 | [triangl](./src/triangl)| Well, I don't know what it is.|| Javascript |
+| [deriv](./src/deriv)| List derivation for symbolic computation. | | Javascript |
