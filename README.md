@@ -36,6 +36,7 @@ All benchmarks are listed in [src directory](./src), I tried my best to make dif
 | [nqueens](./src/nqueens)| N-queen problem.|  |[Scheme/ChezScheme](./output/scheme-chezscheme)|
 | [triangl](./src/triangl)| Well, I don't know what it is.| | [Javascript/NodeJs](./output/javascript-nodejs)|
 | [deriv](./src/deriv)| List derivation for symbolic computation. | | [Javascript/NodeJs](./output/javascript-nodejs)|
+| [deriv-ignore-setuptime](./src/deriv)| Does list derivation many times in order to ignore setup time. | | [Scheme/ChezScheme](./output/scheme-chezscheme)|
 | [cpstack](./src/cpstack)| Cps style computation. | | [Javascript/NodeJs](./output/javascript-nodejs)|
 
 ## What I lean from these benchmarsk
