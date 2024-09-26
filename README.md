@@ -42,4 +42,4 @@ All benchmarks are listed in [src directory](./src), I tried my best to make dif
 ## What I lean from these benchmarsk
 
 1. Chez Scheme seems to perform well with recursion, techniques including tail optimization really work.
-2. In my view, thoese benchmarks which cost less than 0.06 second in Chez Scheme, setup time reall concerns something. 
+2. In my view, those benchmarks which cost less than 0.06 second in Chez Scheme, setup time reall concerns something. 
