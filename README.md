@@ -1,45 +1,46 @@
-# Various Program Language Benchmark
-I want to know exactly how different various program languages perform. However, nowadays there're no such openning project on Internet. 
+# Various Programming Language Benchmark
 
-Now this repository support comparison between Scheme and Javascript.
+I want to know exactly how different programming languages perform. However, nowadays, there aren't many open projects on the Internet for this purpose.
 
-## How to run benchmarks on your own computor
-### Prerequest
-* [Nix](https://nixos.org/) is a tool that takes a unique approach to package management and system configuration. I use it to make reproducible environment to run benchmark. You may need to install it on you own system.
-* Time command. Bash-default `time` command is a shell keyword. This project requires real time command and some linux distribution dosen't install it. On my nixos laptop, I install time command with 
+This repository currently supports comparisons between Scheme and JavaScript.
+
+## How to run benchmarks on your own computer
+### Prerequisites
+* [Nix](https://nixos.org/) is a tool that takes a unique approach to package management and system configuration. I use it to create a reproducible environment for running benchmarks. You may need to install it on your system.
+* The `time` command. The Bash-default `time` command is a shell keyword. This project requires the real `time` command, which some Linux distributions don't install by default. On my NixOS laptop, I install the `time` command with:
 ```nix
 environment.systemPackages = [
   pkgs.time
 ];
 ```
 
-### Run & get result
+### Run & get results
 ```bash
 bash run.sh
 ```
-All results are in directory [`./output`](./output).
+All results are in the [`./output`](./output) directory.
 
 ## Benchmark List
-All benchmarks are listed in [src directory](./src), I tried my best to make different languages consistently performs similar operations on same work. And now, all benchmarks are imagrated from [here](https://github.com/ecraven/r7rs-benchmarks), and I'll gradually add other benchmarks.
+All benchmarks are listed in the [src directory](./src). I tried my best to ensure that different languages consistently perform similar operations on the same tasks. All benchmarks are migrated from [here](https://github.com/ecraven/r7rs-benchmarks), and I'll gradually add others.
 
->NOTE: I don't know why [Bun](./language-environments/javascript/bun/) achieves that many fast results. Google tells me that it acts some unsecure behaviors, so defaultly I won't rank it winner position in the following table. But if you want bun's performance, you may refer [here](./output/javascript-bun).
+>NOTE: I don't know why [Bun](./language-environments/javascript/bun/) achieves such fast results. Google suggests that it uses some unsafe behaviors, so by default, I won't rank it as the winner in the following table. But if you want Bun's performance, you can refer to [here](./output/javascript-bun).
 
-| Benchmark | Description | NOTE | Winner|
-| --- | --- | --- |--- |
-| [ack](./src/ack)| A recursive function with more than 1 parameter,it's seemed to evaluate scheme language's tail optimization. | For many other languages like javascript, tail optimization is usually not facilitated. In order to do the detailed comparison, I have to call ack function as `ack(3,10)`. Which is too small  to perform scheme's advantage. | [Scheme/ChezScheme](./output/scheme-chezscheme) |
-| [primes](./src/primes)| A recursive function calculates primes number. | For many other languages like javascript, tail optimization is usually not facilitated. | [Scheme/ChezScheme](./output/scheme-chezscheme) |
-| [string](./src/string)| String operation mainly on string concating and spliting. | Different languages usually have their own specific details on string model, which lead merely same operations in different languages cause big performance barrier. | [Javascript/NodeJs](./output/javascript-nodejs) |
-| [sum](./src/sum)| Sum up integers from 1 to n with recursion. |  | [Javascript/NodeJs](./output/javascript-nodejs)|
-| [sumfp](./src/sumfp)| Sum up integers' float representation from 1.0 to n with recursion. |  | [Javascript/NodeJs](./output/javascript-nodejs)|
-| [sumfp-ignore-setuptime](./src/sumfp)| Does sum up operation many times in order to ignore setup time. | Chez Scheme overheads NodeJS, but clearly doesn't compete Bun. Now, my question is: how does Bun do? | [Scheme/ChezScheme](./output/scheme-chezscheme)|
-| [fib](./src/fib)| Fibonacci | | [Javascript/NodeJs](./output/javascript-nodejs)|
-| [nqueens](./src/nqueens)| N-queen problem.|  |[Scheme/ChezScheme](./output/scheme-chezscheme)|
-| [triangl](./src/triangl)| Well, I don't know what it is.| | [Javascript/NodeJs](./output/javascript-nodejs)|
-| [deriv](./src/deriv)| List derivation for symbolic computation. | | [Javascript/NodeJs](./output/javascript-nodejs)|
-| [deriv-ignore-setuptime](./src/deriv)| Does list derivation many times in order to ignore setup time. | | [Scheme/ChezScheme](./output/scheme-chezscheme)|
-| [cpstack](./src/cpstack)| Cps style computation. | | [Javascript/NodeJs](./output/javascript-nodejs)|
+| Benchmark | Description | NOTE | Winner |
+| --- | --- | --- | --- |
+| [ack](./src/ack) | A recursive function with more than one parameter, it seems to evaluate Scheme's tail-call optimization. | For many languages like JavaScript, tail-call optimization is usually not implemented. To do a detailed comparison, I call the `ack` function as `ack(3,10)`, which is too small to showcase Scheme's advantage. | [Scheme/ChezScheme](./output/scheme-chezscheme) |
+| [primes](./src/primes) | A recursive function to calculate prime numbers. | For many languages like JavaScript, tail-call optimization is usually not implemented. | [Scheme/ChezScheme](./output/scheme-chezscheme) |
+| [string](./src/string) | String operations mainly on concatenation and splitting. | Different languages often have specific details in string handling, leading to significant performance differences for similar operations. | [JavaScript/NodeJS](./output/javascript-nodejs) |
+| [sum](./src/sum) | Sum up integers from 1 to n using recursion. |  | [JavaScript/NodeJS](./output/javascript-nodejs) |
+| [sumfp](./src/sumfp) | Sum up the float representation of integers from 1.0 to n using recursion. |  | [JavaScript/NodeJS](./output/javascript-nodejs) |
+| [sumfp-ignore-setuptime](./src/sumfp) | Performs the sum operation many times to ignore setup time. | Chez Scheme outperforms NodeJS, but clearly doesn't compete with Bun. Now, my question is: how does Bun do it? | [Scheme/ChezScheme](./output/scheme-chezscheme) |
+| [fib](./src/fib) | Fibonacci calculation. |  | [JavaScript/NodeJS](./output/javascript-nodejs) |
+| [nqueens](./src/nqueens) | N-queen problem. |  | [Scheme/ChezScheme](./output/scheme-chezscheme) |
+| [triangl](./src/triangl) | I'm not sure what this does. |  | [JavaScript/NodeJS](./output/javascript-nodejs) |
+| [deriv](./src/deriv) | List derivation for symbolic computation. |  | [JavaScript/NodeJS](./output/javascript-nodejs) |
+| [deriv-ignore-setuptime](./src/deriv) | Performs list derivation many times to ignore setup time. |  | [Scheme/ChezScheme](./output/scheme-chezscheme) |
+| [cpstack](./src/cpstack) | CPS (continuation-passing style) computation. |  | [JavaScript/NodeJS](./output/javascript-nodejs) |
 
-## What I lean from these benchmarsk
+## What I learned from these benchmarks
 
-1. Chez Scheme seems to perform well with recursion, techniques including tail optimization really work.
-2. In my view, those benchmarks which cost less than 0.06 second in Chez Scheme, setup time reall concerns something. 
+1. Chez Scheme seems to perform well with recursion. Techniques like tail-call optimization really work.
+2. In my view, for those benchmarks that take less than 0.06 seconds in Chez Scheme, setup time really matters.
