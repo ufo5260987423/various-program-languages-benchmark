@@ -55,7 +55,7 @@ All benchmarks are listed in the [src directory](./src). I tried my best to ensu
 | [triangl](./src/triangl) | I'm not sure what this does. |  | 
 | [deriv](./src/deriv) | List derivation for symbolic computation. |  | 
 | [deriv-ignore-setuptime](./src/deriv) | Performs list derivation many times to ignore setup time. |  | 
-| [cpstack](./src/cpstack) | CPS (continuation-passing style) computation. |  | 
+| [cpstak](./src/cpstak) | CPS (continuation-passing style) computation. |  | 
 
 ## What I learned from these benchmarks
 
