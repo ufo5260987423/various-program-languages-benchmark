@@ -1,3 +1,7 @@
+import sys
+
+sys.setrecursionlimit(1000000)
+
 def intervalList(m, n):
     if m > n:
         return []
