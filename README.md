@@ -61,3 +61,5 @@ All benchmarks are listed in the [src directory](./src). I tried my best to ensu
 
 1. Chez Scheme seems to perform well with recursion. Techniques like tail-call optimization really work.
 2. In my view, for those benchmarks that take less than 0.06 seconds in Chez Scheme, setup time really matters.
+
+![radar](./analysis/radar.png)
