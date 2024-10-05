@@ -1,19 +1,19 @@
 Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 x86_64 GNU/Linux
 	Command being timed: "guile --no-auto-compile -s ./src/ack/ack.scm"
-	User time (seconds): 12.95
-	System time (seconds): 0.26
-	Percent of CPU this job got: 121%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:10.86
+	User time (seconds): 12.86
+	System time (seconds): 0.25
+	Percent of CPU this job got: 122%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:10.73
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 18300
+	Maximum resident set size (kbytes): 18168
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 19074
-	Voluntary context switches: 39466
-	Involuntary context switches: 446
+	Minor (reclaiming a frame) page faults: 18605
+	Voluntary context switches: 40067
+	Involuntary context switches: 525
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -25,7 +25,7 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Command being timed: "guile --no-auto-compile -s ./src/sum/sum.scm"
 	User time (seconds): 0.05
 	System time (seconds): 0.00
-	Percent of CPU this job got: 116%
+	Percent of CPU this job got: 114%
 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.05
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
@@ -35,8 +35,8 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
 	Minor (reclaiming a frame) page faults: 1811
-	Voluntary context switches: 244
-	Involuntary context switches: 3
+	Voluntary context switches: 202
+	Involuntary context switches: 8
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -46,10 +46,10 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Page size (bytes): 4096
 	Exit status: 0
 	Command being timed: "guile --no-auto-compile -s ./src/nqueens/nqueens.scm"
-	User time (seconds): 439.91
+	User time (seconds): 427.06
 	System time (seconds): 6.01
-	Percent of CPU this job got: 117%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 6:19.61
+	Percent of CPU this job got: 118%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 6:06.23
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
@@ -57,9 +57,9 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Maximum resident set size (kbytes): 18048
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 10471
-	Voluntary context switches: 1142412
-	Involuntary context switches: 10898
+	Minor (reclaiming a frame) page faults: 10502
+	Voluntary context switches: 1139266
+	Involuntary context switches: 9494
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -71,18 +71,18 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Command being timed: "guile --no-auto-compile -s ./src/string/string.scm"
 	User time (seconds): 0.18
 	System time (seconds): 0.04
-	Percent of CPU this job got: 169%
+	Percent of CPU this job got: 175%
 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.13
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 51316
+	Maximum resident set size (kbytes): 51584
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 10977
-	Voluntary context switches: 1671
-	Involuntary context switches: 50
+	Minor (reclaiming a frame) page faults: 10976
+	Voluntary context switches: 1753
+	Involuntary context switches: 29
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -92,10 +92,10 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Page size (bytes): 4096
 	Exit status: 0
 	Command being timed: "guile --no-auto-compile -s ./src/triangl/triangl.scm"
-	User time (seconds): 5.42
+	User time (seconds): 5.65
 	System time (seconds): 0.10
-	Percent of CPU this job got: 127%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:04.35
+	Percent of CPU this job got: 125%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:04.57
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
@@ -103,9 +103,9 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Maximum resident set size (kbytes): 22144
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 3609
-	Voluntary context switches: 15497
-	Involuntary context switches: 329
+	Minor (reclaiming a frame) page faults: 3608
+	Voluntary context switches: 15745
+	Involuntary context switches: 344
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -115,10 +115,10 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Page size (bytes): 4096
 	Exit status: 0
 	Command being timed: "guile --no-auto-compile -s ./src/fib/fib.scm"
-	User time (seconds): 79.42
-	System time (seconds): 1.49
-	Percent of CPU this job got: 125%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:04.35
+	User time (seconds): 78.08
+	System time (seconds): 1.58
+	Percent of CPU this job got: 126%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:02.89
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
@@ -126,9 +126,9 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Maximum resident set size (kbytes): 17152
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 2303
-	Voluntary context switches: 298241
-	Involuntary context switches: 1976
+	Minor (reclaiming a frame) page faults: 2299
+	Voluntary context switches: 298889
+	Involuntary context switches: 2312
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -138,10 +138,10 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Page size (bytes): 4096
 	Exit status: 0
 	Command being timed: "guile --no-auto-compile -s ./src/sumfp/sumfp-ignore-setuptime.scm"
-	User time (seconds): 37.97
-	System time (seconds): 0.73
-	Percent of CPU this job got: 126%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:30.58
+	User time (seconds): 37.35
+	System time (seconds): 0.77
+	Percent of CPU this job got: 127%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:29.83
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
@@ -149,9 +149,9 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Maximum resident set size (kbytes): 17408
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 2402
-	Voluntary context switches: 144232
-	Involuntary context switches: 1040
+	Minor (reclaiming a frame) page faults: 2399
+	Voluntary context switches: 145880
+	Involuntary context switches: 1188
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -161,10 +161,10 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Page size (bytes): 4096
 	Exit status: 0
 	Command being timed: "guile --no-auto-compile -s ./src/sumfp/sumfp.scm"
-	User time (seconds): 0.05
+	User time (seconds): 0.04
 	System time (seconds): 0.00
-	Percent of CPU this job got: 114%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.05
+	Percent of CPU this job got: 113%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.04
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
@@ -172,9 +172,9 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Maximum resident set size (kbytes): 15104
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 1812
-	Voluntary context switches: 259
-	Involuntary context switches: 5
+	Minor (reclaiming a frame) page faults: 1811
+	Voluntary context switches: 205
+	Involuntary context switches: 8
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -184,20 +184,20 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Page size (bytes): 4096
 	Exit status: 0
 	Command being timed: "guile --no-auto-compile -s ./src/primes/primes.scm"
-	User time (seconds): 0.20
+	User time (seconds): 0.24
 	System time (seconds): 0.01
-	Percent of CPU this job got: 127%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.17
+	Percent of CPU this job got: 124%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.20
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 16384
+	Maximum resident set size (kbytes): 16432
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 2303
-	Voluntary context switches: 883
-	Involuntary context switches: 28
+	Minor (reclaiming a frame) page faults: 2305
+	Voluntary context switches: 894
+	Involuntary context switches: 13
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -208,8 +208,8 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Exit status: 0
 	Command being timed: "guile --no-auto-compile -s ./src/deriv/deriv.scm"
 	User time (seconds): 0.04
-	System time (seconds): 0.01
-	Percent of CPU this job got: 117%
+	System time (seconds): 0.00
+	Percent of CPU this job got: 120%
 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.04
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
@@ -219,7 +219,7 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
 	Minor (reclaiming a frame) page faults: 1831
-	Voluntary context switches: 236
+	Voluntary context switches: 191
 	Involuntary context switches: 8
 	Swaps: 0
 	File system inputs: 0
@@ -241,9 +241,9 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Maximum resident set size (kbytes): 17664
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 2433
-	Voluntary context switches: 620
-	Involuntary context switches: 10
+	Minor (reclaiming a frame) page faults: 2434
+	Voluntary context switches: 569
+	Involuntary context switches: 20
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -252,21 +252,21 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Signals delivered: 0
 	Page size (bytes): 4096
 	Exit status: 0
-	Command being timed: "guile --no-auto-compile -s ./src/cpstak/cpstack.scm"
-	User time (seconds): 0.04
+	Command being timed: "guile --no-auto-compile -s ./src/cpstak/cpstak.scm"
+	User time (seconds): 0.03
 	System time (seconds): 0.01
-	Percent of CPU this job got: 120%
+	Percent of CPU this job got: 124%
 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.04
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 15232
+	Maximum resident set size (kbytes): 14976
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 1812
-	Voluntary context switches: 205
-	Involuntary context switches: 14
+	Minor (reclaiming a frame) page faults: 1818
+	Voluntary context switches: 193
+	Involuntary context switches: 5
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
