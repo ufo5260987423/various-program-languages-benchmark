@@ -23,7 +23,7 @@ if [[ $1 == "--list" ]]
 fi
 
 if [[ $1 == "all" ]]
-  then echo "Testing all implementations"
+  then echo "Running benchmark for all implementations"
   for impl in "$(find "./language-environments" | grep "flake.nix$")"
   do
     impl="${impl//"./language-environments/"/""}"
@@ -35,7 +35,7 @@ fi
 
 function run_bench {
   if [[ -f "./language-environments/$1/flake.nix" ]];
-    then echo "Testing implementation: $1"
+    then echo "Running benchmark for implementation: $1"
     export OUTPUT_PATH="./output/once-time/${1//\//-}"
     if [[ -d "./output/once-time" ]]
       then echo ""
