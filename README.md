@@ -16,10 +16,18 @@ environment.systemPackages = [
 ```
 
 ### Run & get results
+
 ```bash
 bash run.sh
 ```
 All results are in the [`./output`](./output) directory.
+
+To run benchmarks for a specific implementation, use
+```bash
+bash bench.ch "<lang>/<impl>"
+```
+
+The available implementations are listed below. You can also run `bench.sh --list` to get the list.
 
 ## Which Languages and Environments
 1. javascript/nodejs

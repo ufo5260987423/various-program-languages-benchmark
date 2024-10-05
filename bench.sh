@@ -1,9 +1,24 @@
 #!/usr/bin/env bash
 
-help="$0 <impl> [options]"
+help="$0 [impl] [options]
+
+options:
+  --list list all available implementations
+"
 
 if [[ $1 == "" ]]
   then echo "$help"
+fi
+
+if [[ $1 == "--list" ]]
+  then echo "Available implementations:"
+  for impl in "$(find "./language-environments" | grep "flake.nix$")"
+  do
+    impl="${impl//"./language-environments/"/""}"
+    impl="${impl//"/flake.nix"/""}"
+    echo "$impl"
+  done
+  exit
 fi
 
 if [[ $1 == "all" ]]
