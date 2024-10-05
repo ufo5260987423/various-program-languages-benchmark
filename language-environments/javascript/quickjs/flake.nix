@@ -19,11 +19,14 @@
         quickjs
       ];
       shellHook = ''
-        echo $(uname -a) > ./output/javascript-quickjs
+        if [[ $OUTPUT_PATH == "[[DEFAULT]]" ]]
+          then OUTPUT_PATH="./output/javascript-quickjs"
+        fi
+        echo $(uname -a) > $OUTPUT_PATH
         for test in $(find ./src | grep ".js$")
         do
           echo $test
-          $(which time) -av -o ./output/javascript-quickjs qjs $test
+          $(which time) -av -o "$OUTPUT_PATH" qjs $test
         done;
         exit
       '';

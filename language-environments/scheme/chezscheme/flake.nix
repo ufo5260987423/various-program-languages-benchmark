@@ -15,16 +15,18 @@
         inherit system;
       };
     in pkgs.mkShell {
-      # create an environment with nodejs_18, pnpm, and yarn
       packages = with pkgs; [
         chez
       ];
       shellHook = ''
-        echo $(uname -a) > ./output/scheme-chezscheme
+        if [[ $OUTPUT_PATH == "[[DEFAULT]]" ]]
+          then export OUTPUT_PATH="./output/scheme-chezscheme"
+        fi
+        echo $(uname -a) > "$OUTPUT_PATH"
         for test in $(find ./src | grep ".scm$")
         do
           echo $test
-          $(which time) -av -o ./output/scheme-chezscheme scheme --optimize-level 3 --script $test
+          $(which time) -av -o "$OUTPUT_PATH" scheme --optimize-level 3 --script $test
         done;
         exit
       '';

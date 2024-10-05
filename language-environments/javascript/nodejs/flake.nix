@@ -19,11 +19,14 @@
         nodejs
       ];
       shellHook = ''
-        echo $(uname -a) > ./output/javascript-nodejs
+        if [[ $OUTPUT_PATH == "[[DEFAULT]]" ]]
+          then OUTPUT_PATH="./output/javascript-nodejs"
+        fi
+        echo $(uname -a) > $OUTPUT_PATH
         for test in $(find ./src | grep ".js$")
         do
           echo $test
-          $(which time) -av -o ./output/javascript-nodejs node $test
+          $(which time) -av -o "$OUTPUT_PATH" node $test
         done;
         exit
       '';

@@ -19,11 +19,14 @@
         bun
       ];
       shellHook = ''
-        echo $(uname -a) > ./output/javascript-bun
+        if [[ $OUTPUT_PATH == "[[DEFAULT]]" ]]
+          then export OUTPUT_PATH="./output/javascript-bun"
+        fi
+        echo $(uname -a) > "$OUTPUT_PATH"
         for test in $(find ./src | grep ".js$")
         do
           echo $test
-          $(which time) -av -o ./output/javascript-bun bun run $test
+          $(which time) -av -o "$OUTPUT_PATH" bun run $test
         done;
         exit
       '';
