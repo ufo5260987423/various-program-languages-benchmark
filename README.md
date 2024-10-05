@@ -7,6 +7,7 @@ This repository currently supports comparisons between Scheme and JavaScript.
 ## How to run benchmarks on your own computer
 ### Prerequisites
 * [Nix](https://nixos.org/) is a tool that takes a unique approach to package management and system configuration. I use it to create a reproducible environment for running benchmarks. You may need to install it on your system.
+* [flake](https://nixos.wiki/wiki/flakes) provides a standard way to write Nix expressions (and therefore packages) whose dependencies are version-pinned in a lock file, improving reproducibility of Nix installations. We use it to manage environments and run benchmarks
 * The `time` command. The Bash-default `time` command is a shell keyword. This project requires the real `time` command, which some Linux distributions don't install by default. On my NixOS laptop, I install the `time` command with:
 ```nix
 environment.systemPackages = [
@@ -20,10 +21,16 @@ bash run.sh
 ```
 All results are in the [`./output`](./output) directory.
 
+## Which Languages and Environments
+1. javascript/nodejs
+2. javascript/bun: I don't know why [Bun](./language-environments/javascript/bun/) achieves such fast results. Google suggests that it uses some unsafe behaviors, so by default, I won't rank it as the winner in the following table. But if you want Bun's performance, you can refer to [here](./output/javascript-bun).
+3. javascript/quickjs: Thanks to [Flamme Shadow](https://github.com/FlammeShadow), he contributes this environment to this repository. Though he mentioned in this [pr](https://github.com/ufo5260987423/various-program-languages-benchmark/pull/3) that many benchmarks couldn't work, personally, I think his experience makes a baseline: if any languages cannot reach it, applying them in actual practice should be considerated more than two times.
+4. scheme/chezscheme
+
 ## Benchmark List
 All benchmarks are listed in the [src directory](./src). I tried my best to ensure that different languages consistently perform similar operations on the same tasks. All benchmarks are migrated from [here](https://github.com/ecraven/r7rs-benchmarks), and I'll gradually add others.
 
->NOTE: I don't know why [Bun](./language-environments/javascript/bun/) achieves such fast results. Google suggests that it uses some unsafe behaviors, so by default, I won't rank it as the winner in the following table. But if you want Bun's performance, you can refer to [here](./output/javascript-bun).
+>NOTE: 
 
 | Benchmark | Description | NOTE | Winner |
 | --- | --- | --- | --- |
