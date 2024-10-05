@@ -25,10 +25,10 @@ All results are in the [`./output`](./output) directory.
 
 To run benchmarks for a specific implementation, please use
 ```bash
-bash bench.ch "<lang>/<impl>"
+bash bench "<lang>/<impl>"
 ```
 
-The result will be in `./output/once-time/` directory.  All available implementations are listed with `bench.sh --list`.
+The result will be in `./output/once-time/` directory.  All available implementations are listed with `./bench --list`.
 
 ## Which Languages and Environments
 1. javascript/nodejs
