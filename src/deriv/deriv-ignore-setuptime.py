@@ -16,7 +16,7 @@ def deriv(a):
         else:
             raise Exception("No derivation method available")
 
-for i in range(0,10000)
+for i in range(0,10000):
     deriv(
         ["+", 
             ["*", ["*", 3, "x", "x"],
