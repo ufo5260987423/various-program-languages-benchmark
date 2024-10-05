@@ -1,5 +1,5 @@
 {
-  description = "A Nix-flake-based Guile development environment";
+  description = "A Nix-flake-based PyPy development environment";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-24.05";
@@ -16,17 +16,17 @@
       };
     in pkgs.mkShell {
       packages = with pkgs; [
-        guile
+        pypy
       ];
       shellHook = ''
         if [[ $OUTPUT_PATH == "[[DEFAULT]]" ]]
-          then export OUTPUT_PATH="./output/scheme-guile"
+          then export OUTPUT_PATH="./output/python-pypy"
         fi
         echo $(uname -a) > "$OUTPUT_PATH"
-        for test in $(find ./src | grep ".scm$")
+        for test in $(find ./src | grep ".py$")
         do
           echo $test
-          $(which time) -av -o "$OUTPUT_PATH" guile --no-auto-compile -s $test
+          $(which time) -av -o "$OUTPUT_PATH" pypy $test
         done;
         exit
       '';
