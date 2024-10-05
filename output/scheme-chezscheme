@@ -1,9 +1,9 @@
 Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 x86_64 GNU/Linux
 	Command being timed: "scheme --optimize-level 3 --script ./src/ack/ack.scm"
-	User time (seconds): 0.25
+	User time (seconds): 0.24
 	System time (seconds): 0.02
-	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.28
+	Percent of CPU this job got: 98%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.27
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
@@ -22,11 +22,11 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Signals delivered: 0
 	Page size (bytes): 4096
 	Exit status: 0
-	Command being timed: "scheme --optimize-level 3 --script ./src/cpstack/cpstak.scm"
-	User time (seconds): 0.04
+	Command being timed: "scheme --optimize-level 3 --script ./src/cpstack/cpstack.scm"
+	User time (seconds): 0.07
 	System time (seconds): 0.02
-	Percent of CPU this job got: 97%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.06
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.10
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
@@ -36,7 +36,7 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Major (requiring I/O) page faults: 0
 	Minor (reclaiming a frame) page faults: 11407
 	Voluntary context switches: 1
-	Involuntary context switches: 1
+	Involuntary context switches: 2
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -48,8 +48,8 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Command being timed: "scheme --optimize-level 3 --script ./src/sum/sum.scm"
 	User time (seconds): 0.05
 	System time (seconds): 0.02
-	Percent of CPU this job got: 98%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.07
+	Percent of CPU this job got: 97%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.08
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
@@ -59,7 +59,7 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Major (requiring I/O) page faults: 0
 	Minor (reclaiming a frame) page faults: 11404
 	Voluntary context switches: 1
-	Involuntary context switches: 1
+	Involuntary context switches: 2
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -69,10 +69,10 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Page size (bytes): 4096
 	Exit status: 0
 	Command being timed: "scheme --optimize-level 3 --script ./src/nqueens/nqueens.scm"
-	User time (seconds): 5.92
-	System time (seconds): 0.02
+	User time (seconds): 5.89
+	System time (seconds): 0.03
 	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:06.00
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.95
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
@@ -82,7 +82,7 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Major (requiring I/O) page faults: 0
 	Minor (reclaiming a frame) page faults: 13445
 	Voluntary context switches: 1
-	Involuntary context switches: 286
+	Involuntary context switches: 81
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -92,20 +92,20 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Page size (bytes): 4096
 	Exit status: 0
 	Command being timed: "scheme --optimize-level 3 --script ./src/string/string.scm"
-	User time (seconds): 1.08
-	System time (seconds): 1.27
+	User time (seconds): 1.05
+	System time (seconds): 1.25
 	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.37
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.32
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 290132
+	Maximum resident set size (kbytes): 289848
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
 	Minor (reclaiming a frame) page faults: 778904
 	Voluntary context switches: 1
-	Involuntary context switches: 9
+	Involuntary context switches: 27
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -115,10 +115,10 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Page size (bytes): 4096
 	Exit status: 0
 	Command being timed: "scheme --optimize-level 3 --script ./src/triangl/triangl.scm"
-	User time (seconds): 0.12
-	System time (seconds): 0.03
+	User time (seconds): 0.11
+	System time (seconds): 0.02
 	Percent of CPU this job got: 98%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.16
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.13
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
@@ -138,10 +138,10 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Page size (bytes): 4096
 	Exit status: 0
 	Command being timed: "scheme --optimize-level 3 --script ./src/fib/fib.scm"
-	User time (seconds): 1.86
-	System time (seconds): 0.03
+	User time (seconds): 1.85
+	System time (seconds): 0.02
 	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.90
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.88
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
@@ -151,7 +151,7 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Major (requiring I/O) page faults: 0
 	Minor (reclaiming a frame) page faults: 11404
 	Voluntary context switches: 1
-	Involuntary context switches: 8
+	Involuntary context switches: 50
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -161,10 +161,10 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Page size (bytes): 4096
 	Exit status: 0
 	Command being timed: "scheme --optimize-level 3 --script ./src/sumfp/sumfp-ignore-setuptime.scm"
-	User time (seconds): 1.56
+	User time (seconds): 1.07
 	System time (seconds): 0.02
-	Percent of CPU this job got: 98%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.61
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.09
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
@@ -174,7 +174,7 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Major (requiring I/O) page faults: 0
 	Minor (reclaiming a frame) page faults: 13439
 	Voluntary context switches: 1
-	Involuntary context switches: 150
+	Involuntary context switches: 3
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -184,10 +184,10 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Page size (bytes): 4096
 	Exit status: 0
 	Command being timed: "scheme --optimize-level 3 --script ./src/sumfp/sumfp.scm"
-	User time (seconds): 0.08
-	System time (seconds): 0.03
+	User time (seconds): 0.06
+	System time (seconds): 0.02
 	Percent of CPU this job got: 98%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.11
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.08
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
@@ -196,8 +196,8 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
 	Minor (reclaiming a frame) page faults: 11405
-	Voluntary context switches: 0
-	Involuntary context switches: 0
+	Voluntary context switches: 1
+	Involuntary context switches: 3
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -209,7 +209,7 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Command being timed: "scheme --optimize-level 3 --script ./src/primes/primes.scm"
 	User time (seconds): 0.06
 	System time (seconds): 0.02
-	Percent of CPU this job got: 98%
+	Percent of CPU this job got: 97%
 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.09
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
@@ -220,7 +220,7 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Major (requiring I/O) page faults: 0
 	Minor (reclaiming a frame) page faults: 12716
 	Voluntary context switches: 1
-	Involuntary context switches: 1
+	Involuntary context switches: 0
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -230,10 +230,10 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Page size (bytes): 4096
 	Exit status: 0
 	Command being timed: "scheme --optimize-level 3 --script ./src/deriv/deriv.scm"
-	User time (seconds): 0.07
+	User time (seconds): 0.06
 	System time (seconds): 0.02
 	Percent of CPU this job got: 98%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.10
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.08
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
@@ -243,7 +243,7 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Major (requiring I/O) page faults: 0
 	Minor (reclaiming a frame) page faults: 11420
 	Voluntary context switches: 1
-	Involuntary context switches: 1
+	Involuntary context switches: 4
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -253,10 +253,10 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Page size (bytes): 4096
 	Exit status: 0
 	Command being timed: "scheme --optimize-level 3 --script ./src/deriv/deriv-ignore-setuptime.scm"
-	User time (seconds): 0.11
-	System time (seconds): 0.03
-	Percent of CPU this job got: 96%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.15
+	User time (seconds): 0.07
+	System time (seconds): 0.02
+	Percent of CPU this job got: 98%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.09
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
@@ -266,7 +266,7 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Major (requiring I/O) page faults: 0
 	Minor (reclaiming a frame) page faults: 12380
 	Voluntary context switches: 1
-	Involuntary context switches: 37
+	Involuntary context switches: 1
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
