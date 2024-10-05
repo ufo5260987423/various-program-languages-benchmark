@@ -1,42 +1,19 @@
 Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 x86_64 GNU/Linux
 	Command being timed: "bun run ./src/ack/ack.js"
-	User time (seconds): 0.26
-	System time (seconds): 0.02
+	User time (seconds): 0.27
+	System time (seconds): 0.01
 	Percent of CPU this job got: 101%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.28
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.27
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 44260
+	Maximum resident set size (kbytes): 44244
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
 	Minor (reclaiming a frame) page faults: 3758
-	Voluntary context switches: 94
-	Involuntary context switches: 70
-	Swaps: 0
-	File system inputs: 0
-	File system outputs: 0
-	Socket messages sent: 0
-	Socket messages received: 0
-	Signals delivered: 0
-	Page size (bytes): 4096
-	Exit status: 0
-	Command being timed: "bun run ./src/cpstack/cpstack.js"
-	User time (seconds): 0.00
-	System time (seconds): 0.01
-	Percent of CPU this job got: 105%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.01
-	Average shared text size (kbytes): 0
-	Average unshared data size (kbytes): 0
-	Average stack size (kbytes): 0
-	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 35816
-	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 3117
-	Voluntary context switches: 98
-	Involuntary context switches: 36
+	Voluntary context switches: 80
+	Involuntary context switches: 22
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -48,18 +25,18 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Command being timed: "bun run ./src/sum/sum.js"
 	User time (seconds): 0.01
 	System time (seconds): 0.01
-	Percent of CPU this job got: 110%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.01
+	Percent of CPU this job got: 104%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 39396
+	Maximum resident set size (kbytes): 39780
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 3314
-	Voluntary context switches: 79
-	Involuntary context switches: 36
+	Minor (reclaiming a frame) page faults: 3323
+	Voluntary context switches: 82
+	Involuntary context switches: 122
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -69,20 +46,20 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Page size (bytes): 4096
 	Exit status: 0
 	Command being timed: "bun run ./src/nqueens/nqueens.js"
-	User time (seconds): 35.76
+	User time (seconds): 35.31
 	System time (seconds): 1.75
 	Percent of CPU this job got: 106%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:35.23
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:34.76
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 98856
+	Maximum resident set size (kbytes): 99436
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 18447
-	Voluntary context switches: 133462
-	Involuntary context switches: 20827
+	Minor (reclaiming a frame) page faults: 18538
+	Voluntary context switches: 136459
+	Involuntary context switches: 20909
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -92,10 +69,10 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Page size (bytes): 4096
 	Exit status: 0
 	Command being timed: "bun run ./src/string/string.js"
-	User time (seconds): 0.03
-	System time (seconds): 0.05
-	Percent of CPU this job got: 112%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.07
+	User time (seconds): 0.04
+	System time (seconds): 0.04
+	Percent of CPU this job got: 114%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.08
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
@@ -103,9 +80,9 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Maximum resident set size (kbytes): 102632
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 18820
-	Voluntary context switches: 447
-	Involuntary context switches: 105
+	Minor (reclaiming a frame) page faults: 18823
+	Voluntary context switches: 525
+	Involuntary context switches: 126
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -115,20 +92,20 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Page size (bytes): 4096
 	Exit status: 0
 	Command being timed: "bun run ./src/triangl/triangl.js"
-	User time (seconds): 0.00
-	System time (seconds): 0.01
-	Percent of CPU this job got: 118%
+	User time (seconds): 0.01
+	System time (seconds): 0.00
+	Percent of CPU this job got: 111%
 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.01
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 36456
+	Maximum resident set size (kbytes): 36200
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 3123
-	Voluntary context switches: 105
-	Involuntary context switches: 3
+	Minor (reclaiming a frame) page faults: 3121
+	Voluntary context switches: 127
+	Involuntary context switches: 9
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -138,10 +115,10 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Page size (bytes): 4096
 	Exit status: 0
 	Command being timed: "bun run ./src/fib/fib.js"
-	User time (seconds): 1.12
+	User time (seconds): 1.05
 	System time (seconds): 0.01
 	Percent of CPU this job got: 100%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.14
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.06
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
@@ -149,9 +126,9 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Maximum resident set size (kbytes): 43108
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 3558
-	Voluntary context switches: 112
-	Involuntary context switches: 2
+	Minor (reclaiming a frame) page faults: 3559
+	Voluntary context switches: 107
+	Involuntary context switches: 15
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -161,7 +138,7 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Page size (bytes): 4096
 	Exit status: 0
 	Command being timed: "bun run ./src/sumfp/sumfp-ignore-setuptime.js"
-	User time (seconds): 0.40
+	User time (seconds): 0.39
 	System time (seconds): 0.01
 	Percent of CPU this job got: 100%
 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.40
@@ -169,12 +146,12 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 44524
+	Maximum resident set size (kbytes): 44908
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 3739
-	Voluntary context switches: 98
-	Involuntary context switches: 27
+	Minor (reclaiming a frame) page faults: 3858
+	Voluntary context switches: 106
+	Involuntary context switches: 20
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -192,12 +169,12 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 39528
+	Maximum resident set size (kbytes): 39016
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 3309
+	Minor (reclaiming a frame) page faults: 3296
 	Voluntary context switches: 101
-	Involuntary context switches: 16
+	Involuntary context switches: 20
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -207,20 +184,20 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Page size (bytes): 4096
 	Exit status: 0
 	Command being timed: "bun run ./src/primes/primes.js"
-	User time (seconds): 0.42
-	System time (seconds): 0.18
-	Percent of CPU this job got: 118%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.52
+	User time (seconds): 0.44
+	System time (seconds): 0.22
+	Percent of CPU this job got: 117%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.57
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 251280
+	Maximum resident set size (kbytes): 248620
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 62874
-	Voluntary context switches: 3254
-	Involuntary context switches: 947
+	Minor (reclaiming a frame) page faults: 63155
+	Voluntary context switches: 3264
+	Involuntary context switches: 1440
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -231,19 +208,19 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Exit status: 0
 	Command being timed: "bun run ./src/deriv/deriv-ignore-setuptime.js"
 	User time (seconds): 0.07
-	System time (seconds): 0.04
-	Percent of CPU this job got: 152%
+	System time (seconds): 0.03
+	Percent of CPU this job got: 150%
 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.07
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 84972
+	Maximum resident set size (kbytes): 85100
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 13601
-	Voluntary context switches: 198
-	Involuntary context switches: 57
+	Minor (reclaiming a frame) page faults: 13625
+	Voluntary context switches: 204
+	Involuntary context switches: 44
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -253,20 +230,43 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Page size (bytes): 4096
 	Exit status: 0
 	Command being timed: "bun run ./src/deriv/deriv.js"
-	User time (seconds): 0.01
-	System time (seconds): 0.00
-	Percent of CPU this job got: 112%
+	User time (seconds): 0.00
+	System time (seconds): 0.01
+	Percent of CPU this job got: 116%
 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.01
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 38120
+	Maximum resident set size (kbytes): 38248
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 3367
-	Voluntary context switches: 96
-	Involuntary context switches: 35
+	Minor (reclaiming a frame) page faults: 3384
+	Voluntary context switches: 131
+	Involuntary context switches: 27
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "bun run ./src/cpstak/cpstack.js"
+	User time (seconds): 0.00
+	System time (seconds): 0.01
+	Percent of CPU this job got: 111%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.01
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 36072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 3119
+	Voluntary context switches: 122
+	Involuntary context switches: 8
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0

@@ -42,22 +42,20 @@ The result will be in `./output/once-time/` directory.  All available implementa
 ## Benchmark List
 All benchmarks are listed in the [src directory](./src). I tried my best to ensure that different languages consistently perform similar operations on the same tasks. All benchmarks are migrated from [here](https://github.com/ecraven/r7rs-benchmarks), and I'll gradually add others.
 
->NOTE: 
-
-| Benchmark | Description | NOTE | Winner |
-| --- | --- | --- | --- |
-| [ack](./src/ack) | A recursive function with more than one parameter, it seems to evaluate Scheme's tail-call optimization. | For many languages like JavaScript, tail-call optimization is usually not implemented. To do a detailed comparison, I call the `ack` function as `ack(3,10)`, which is too small to showcase Scheme's advantage. | [Scheme/ChezScheme](./output/scheme-chezscheme) |
-| [primes](./src/primes) | A recursive function to calculate prime numbers. | For many languages like JavaScript, tail-call optimization is usually not implemented. | [Scheme/ChezScheme](./output/scheme-chezscheme) |
-| [string](./src/string) | String operations mainly on concatenation and splitting. | Different languages often have specific details in string handling, leading to significant performance differences for similar operations. | [JavaScript/NodeJS](./output/javascript-nodejs) |
-| [sum](./src/sum) | Sum up integers from 1 to n using recursion. |  | [JavaScript/NodeJS](./output/javascript-nodejs) |
-| [sumfp](./src/sumfp) | Sum up the float representation of integers from 1.0 to n using recursion. |  | [JavaScript/NodeJS](./output/javascript-nodejs) |
-| [sumfp-ignore-setuptime](./src/sumfp) | Performs the sum operation many times to ignore setup time. | Chez Scheme outperforms NodeJS, but clearly doesn't compete with Bun. Now, my question is: how does Bun do it? | [Scheme/ChezScheme](./output/scheme-chezscheme) |
-| [fib](./src/fib) | Fibonacci calculation. |  | [JavaScript/NodeJS](./output/javascript-nodejs) |
-| [nqueens](./src/nqueens) | N-queen problem. |  | [Scheme/ChezScheme](./output/scheme-chezscheme) |
-| [triangl](./src/triangl) | I'm not sure what this does. |  | [JavaScript/NodeJS](./output/javascript-nodejs) |
-| [deriv](./src/deriv) | List derivation for symbolic computation. |  | [JavaScript/NodeJS](./output/javascript-nodejs) |
-| [deriv-ignore-setuptime](./src/deriv) | Performs list derivation many times to ignore setup time. |  | [Scheme/ChezScheme](./output/scheme-chezscheme) |
-| [cpstack](./src/cpstack) | CPS (continuation-passing style) computation. |  | [JavaScript/NodeJS](./output/javascript-nodejs) |
+| Benchmark | Description | NOTE |
+| --- | --- | --- | 
+| [ack](./src/ack) | A recursive function with more than one parameter, it seems to evaluate Scheme's tail-call optimization. | For many languages like JavaScript, tail-call optimization is usually not implemented. To do a detailed comparison, I call the `ack` function as `ack(3,10)`, which is too small to showcase Scheme's advantage. | 
+| [primes](./src/primes) | A recursive function to calculate prime numbers. | For many languages like JavaScript, tail-call optimization is usually not implemented. | 
+| [string](./src/string) | String operations mainly on concatenation and splitting. | Different languages often have specific details in string handling, leading to significant performance differences for similar operations. | 
+| [sum](./src/sum) | Sum up integers from 1 to n using recursion. |  | 
+| [sumfp](./src/sumfp) | Sum up the float representation of integers from 1.0 to n using recursion. |  | 
+| [sumfp-ignore-setuptime](./src/sumfp) | Performs the sum operation many times to ignore setup time. | Chez Scheme outperforms NodeJS, but clearly doesn't compete with Bun. Now, my question is: how does Bun do it? |
+| [fib](./src/fib) | Fibonacci calculation. |  | 
+| [nqueens](./src/nqueens) | N-queen problem. |  | 
+| [triangl](./src/triangl) | I'm not sure what this does. |  | 
+| [deriv](./src/deriv) | List derivation for symbolic computation. |  | 
+| [deriv-ignore-setuptime](./src/deriv) | Performs list derivation many times to ignore setup time. |  | 
+| [cpstack](./src/cpstack) | CPS (continuation-passing style) computation. |  | 
 
 ## What I learned from these benchmarks
 
