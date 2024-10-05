@@ -1,3 +1,7 @@
+import sys
+
+sys.setrecursionlimit(1000000)
+
 def ack(m, n):
     if m == 0:
         return n + 1
