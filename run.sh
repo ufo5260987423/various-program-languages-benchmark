@@ -11,5 +11,6 @@ do
     if [[ "${skip[@]}" =~ $test ]]; then continue; fi
     # if [ $test == "quickjs" ]; then continue; fi
     echo $test
+    export OUTPUT_PATH="[[DEFAULT]]"
     nix develop $test
 done;

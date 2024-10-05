@@ -16,10 +16,19 @@ environment.systemPackages = [
 ```
 
 ### Run & get results
+
 ```bash
 bash run.sh
 ```
 All results are in the [`./output`](./output) directory.
+Note that `run.sh` does not really test all languages, due to that quickjs will failed on serveral benchmarks. To test all languages, you can run `bench.sh all` instead.
+
+To run benchmarks for a specific implementation, please use
+```bash
+bash bench.ch "<lang>/<impl>"
+```
+
+The available implementations are listed below. You can also run `bench.sh --list` to get the list.
 
 ## Which Languages and Environments
 1. javascript/nodejs
