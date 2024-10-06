@@ -51,22 +51,21 @@ function setup_bench {
 function run_bench {
   impl=$1
   if [[ $impl == "scheme/guile" ]];
-    then ./shellHook.sh "guile" ".scm" "--auto-compile -s"
+    then bash ./shellHook.sh "guile" ".scm" "--auto-compile -s"
   elif [[ $impl == "scheme/chezscheme" ]];
-    then ./shellHook.sh "scheme" ".scm" "--optimize-level 3 --script"
+    then bash ./shellHook.sh "scheme" ".scm" "--optimize-level 3 --script"
   elif [[ $impl == "javascript/bun" ]];
-    then ./shellHook.sh "bun run" ".js"
+    then bash ./shellHook.sh "bun run" ".js"
   elif [[ $impl == "javascript/node" ]];
-    then ./shellHook.sh "node" ".js"
+    then bash ./shellHook.sh "node" ".js"
   elif [[ $impl == "javascript/quickjs" ]];
-    then ./shellHook.sh "qjs" ".js"
+    then bash ./shellHook.sh "qjs" ".js"
   elif [[ $impl == "python/cpython3.13" ]];
-    then ./shellHook.sh "py" ".py" "-3.13"
+    then bash ./shellHook.sh "py" ".py" "-3.13"
   elif [[ $impl == "python/pypy" ]];
-    then ./shellHook.sh "pypy" ".py"
+    then bash ./shellHook.sh "pypy" ".py"
   elif [[ $impl == "python/3.9" ]];
-        then ./shellHook.sh "py" ".py" "-3.9"
-
+    then bash ./shellHook.sh "py" ".py" "-3.9"
   fi
 }
 
