@@ -39,7 +39,7 @@ If you don't want to use Nix, you can use `bench` instead. That will try to call
 4. scheme/chezscheme
 5. scheme/guile
 6. python/pypy
-7. python/cpython3.13
+7. python/cpython3.13 & python/cpython3.9: Python has significant performance improvements since 3.10, so I chose two versions to compare performance.
 
 ## Benchmark List
 All benchmarks are listed in the [src directory](./src). I tried my best to ensure that different languages consistently perform similar operations on the same tasks. All benchmarks are migrated from [here](https://github.com/ecraven/r7rs-benchmarks), and I'll gradually add others.
