@@ -9,7 +9,6 @@ skip=(
 for test in $(find ./language-environments | grep "flake.nix$")
 do
     if [[ "${skip[@]}" =~ $test ]]; then continue; fi
-    # if [ $test == "quickjs" ]; then continue; fi
     echo $test
     export OUTPUT_PATH="[[DEFAULT]]"
     nix develop $test

@@ -28,7 +28,7 @@ To run benchmarks for a specific implementation, please use
 bash nix-bench "<lang>/<impl>"
 ```
 
-The result will be in `./output/once-time/` directory.  All available implementations are listed with `./nix-bench --list`.
+The result will be in `./output/once-time/` directory.  All available implementations are listed with `bash nix-bench --list`.
 
 If you don't want to use Nix, you can use `bench` instead. That will try to call the existed binary executable on your system.
 
