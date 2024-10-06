@@ -22,12 +22,7 @@
         if [[ $OUTPUT_PATH == "[[DEFAULT]]" ]]
           then export OUTPUT_PATH="./output/scheme-guile"
         fi
-        echo $(uname -a) > "$OUTPUT_PATH"
-        for test in $(find ./src | grep ".scm$")
-        do
-          echo $test
-          $(which time) -av -o "$OUTPUT_PATH" guile --no-auto-compile -s $test
-        done;
+        ./shellHook.sh "guile" ".scm" "--auto-compile -s"
         exit
       '';
     };

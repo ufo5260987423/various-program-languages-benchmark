@@ -22,12 +22,7 @@
         if [[ $OUTPUT_PATH == "[[DEFAULT]]" ]]
           then export OUTPUT_PATH="./output/scheme-chezscheme"
         fi
-        echo $(uname -a) > "$OUTPUT_PATH"
-        for test in $(find ./src | grep ".scm$")
-        do
-          echo $test
-          $(which time) -av -o "$OUTPUT_PATH" scheme --optimize-level 3 --script $test
-        done;
+        ./shellHook.sh "scheme" ".scm" " --optimize-level 3 --script"
         exit
       '';
     };

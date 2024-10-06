@@ -22,12 +22,7 @@
         if [[ $OUTPUT_PATH == "[[DEFAULT]]" ]]
           then export OUTPUT_PATH="./output/python-pypy"
         fi
-        echo $(uname -a) > "$OUTPUT_PATH"
-        for test in $(find ./src | grep ".py$")
-        do
-          echo $test
-          $(which time) -av -o "$OUTPUT_PATH" pypy $test
-        done;
+        ./shellHook.sh "pypy" ".py"
         exit
       '';
     };

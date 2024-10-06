@@ -22,12 +22,7 @@
         if [[ $OUTPUT_PATH == "[[DEFAULT]]" ]]
           then OUTPUT_PATH="./output/javascript-quickjs"
         fi
-        echo $(uname -a) > $OUTPUT_PATH
-        for test in $(find ./src | grep ".js$")
-        do
-          echo $test
-          $(which time) -av -o "$OUTPUT_PATH" qjs $test
-        done;
+        ./shellHook.sh "qjs" ".js"
         exit
       '';
     };
