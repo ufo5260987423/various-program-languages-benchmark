@@ -21,14 +21,16 @@ environment.systemPackages = [
 bash run.sh
 ```
 All results are in the [`./output`](./output) directory.
-> Note that `run.sh` does not really test all languages, due to that quickjs will failed on serveral benchmarks. To test all languages, you can run `bench.sh all` instead.
+> Note that `run.sh` does not really test all languages, due to that quickjs will failed on serveral benchmarks. To test all languages, you can run `nix-bench all` instead.
 
 To run benchmarks for a specific implementation, please use
 ```bash
-bash bench "<lang>/<impl>"
+bash nix-bench "<lang>/<impl>"
 ```
 
-The result will be in `./output/once-time/` directory.  All available implementations are listed with `./bench --list`.
+The result will be in `./output/once-time/` directory.  All available implementations are listed with `./nix-bench --list`.
+
+If you don't want to use Nix, you can use `bench` instead. That will try to call the existed binary executable on your system.
 
 ## Which Languages and Environments
 1. javascript/nodejs
@@ -37,7 +39,7 @@ The result will be in `./output/once-time/` directory.  All available implementa
 4. scheme/chezscheme
 5. scheme/guile
 6. python/pypy
-7. python/cpython
+7. python/cpython3.13
 
 ## Benchmark List
 All benchmarks are listed in the [src directory](./src). I tried my best to ensure that different languages consistently perform similar operations on the same tasks. All benchmarks are migrated from [here](https://github.com/ecraven/r7rs-benchmarks), and I'll gradually add others.
