@@ -65,4 +65,4 @@ All benchmarks are listed in the [src directory](./src). I tried my best to ensu
 2. In my view, for those benchmarks that take less than 0.06 seconds in Chez Scheme, setup time really matters.
 
 ![radar](./analysis/radar.png)
->NOTE: Big number means high rank.
+![ln](./analysis/ln.png)
