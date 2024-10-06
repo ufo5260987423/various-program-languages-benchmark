@@ -22,13 +22,7 @@
         if [[ $OUTPUT_PATH == "[[DEFAULT]]" ]]
           then export OUTPUT_PATH="./output/javascript-bun"
         fi
-        echo $(uname -a) > "$OUTPUT_PATH"
-        for test in $(find ./src | grep ".js$")
-        do
-          echo $test
-          $(which time) -av -o "$OUTPUT_PATH" bun run $test
-        done;
-        exit
+        ./shellHook.sh "bun run" ".js"
       '';
     };
   };

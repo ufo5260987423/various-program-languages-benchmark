@@ -20,14 +20,9 @@
       ];
       shellHook = ''
         if [[ $OUTPUT_PATH == "[[DEFAULT]]" ]]
-          then export OUTPUT_PATH="./output/python-cpython"
+          then export OUTPUT_PATH="./output/python-cpython313"
         fi
-        echo $(uname -a) > "$OUTPUT_PATH"
-        for test in $(find ./src | grep ".py$")
-        do
-          echo $test
-          $(which time) -av -o "$OUTPUT_PATH" python $test
-        done;
+        ./shellHook.sh "python" ".py"
         exit
       '';
     };
