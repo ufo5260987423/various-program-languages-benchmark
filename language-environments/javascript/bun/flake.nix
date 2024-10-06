@@ -23,6 +23,7 @@
           then export OUTPUT_PATH="./output/javascript-bun"
         fi
         bash ./shellHook.sh "bun run" ".js"
+        exit
       '';
     };
   };
