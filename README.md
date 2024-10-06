@@ -58,6 +58,7 @@ All benchmarks are listed in the [src directory](./src). I tried my best to ensu
 | [deriv](./src/deriv) | List derivation for symbolic computation. |  | 
 | [deriv-ignore-setuptime](./src/deriv) | Performs list derivation many times to ignore setup time. |  | 
 | [cpstak](./src/cpstak) | CPS (continuation-passing style) computation. |  | 
+| [cpstak-ignore-setuptime](./src/cpstak) | Performs the cpstak benchmark many times to ignore setup time. |  | 
 
 ## What I learned from these benchmarks
 
