@@ -22,7 +22,7 @@
         if [[ $OUTPUT_PATH == "[[DEFAULT]]" ]]
           then OUTPUT_PATH="./output/javascript-nodejs"
         fi
-        ./shellHook.sh "node" ".js"
+        bash ./shellHook.sh "node" ".js"
         exit
       '';
     };

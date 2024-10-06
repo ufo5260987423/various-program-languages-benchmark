@@ -22,7 +22,7 @@
         if [[ $OUTPUT_PATH == "[[DEFAULT]]" ]]
           then export OUTPUT_PATH="./output/python-pypy"
         fi
-        ./shellHook.sh "pypy" ".py"
+        bash ./shellHook.sh "pypy" ".py"
         exit
       '';
     };

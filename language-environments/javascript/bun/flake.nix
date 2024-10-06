@@ -22,7 +22,7 @@
         if [[ $OUTPUT_PATH == "[[DEFAULT]]" ]]
           then export OUTPUT_PATH="./output/javascript-bun"
         fi
-        ./shellHook.sh "bun run" ".js"
+        bash ./shellHook.sh "bun run" ".js"
       '';
     };
   };

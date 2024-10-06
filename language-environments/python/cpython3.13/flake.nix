@@ -22,7 +22,7 @@
         if [[ $OUTPUT_PATH == "[[DEFAULT]]" ]]
           then export OUTPUT_PATH="./output/python-cpython313"
         fi
-        ./shellHook.sh "python" ".py"
+        bash ./shellHook.sh "python" ".py"
         exit
       '';
     };

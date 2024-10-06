@@ -22,7 +22,7 @@
         if [[ $OUTPUT_PATH == "[[DEFAULT]]" ]]
           then OUTPUT_PATH="./output/javascript-quickjs"
         fi
-        ./shellHook.sh "qjs" ".js"
+        bash ./shellHook.sh "qjs" ".js"
         exit
       '';
     };

@@ -22,7 +22,7 @@
         if [[ $OUTPUT_PATH == "[[DEFAULT]]" ]]
           then export OUTPUT_PATH="./output/scheme-chezscheme"
         fi
-        ./shellHook.sh "scheme" ".scm" " --optimize-level 3 --script"
+        bash ./shellHook.sh "scheme" ".scm" " --optimize-level 3 --script"
         exit
       '';
     };

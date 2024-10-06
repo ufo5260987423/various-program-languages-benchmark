@@ -22,7 +22,7 @@
         if [[ $OUTPUT_PATH == "[[DEFAULT]]" ]]
           then export OUTPUT_PATH="./output/scheme-guile"
         fi
-        ./shellHook.sh "guile" ".scm" "--auto-compile -s"
+        bash ./shellHook.sh "guile" ".scm" "--auto-compile -s"
         exit
       '';
     };
