@@ -1,19 +1,19 @@
 Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 x86_64 GNU/Linux
 	Command being timed: "python ./src/ack/ack.py"
-	User time (seconds): 10.44
-	System time (seconds): 2.85
+	User time (seconds): 9.57
+	System time (seconds): 2.70
 	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:13.40
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:12.36
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 16828
+	Maximum resident set size (kbytes): 16640
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
 	Minor (reclaiming a frame) page faults: 1610857
 	Voluntary context switches: 1
-	Involuntary context switches: 163
+	Involuntary context switches: 45
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -24,9 +24,9 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Exit status: 0
 	Command being timed: "python ./src/sum/sum.py"
 	User time (seconds): 0.01
-	System time (seconds): 0.01
-	Percent of CPU this job got: 96%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.03
+	System time (seconds): 0.00
+	Percent of CPU this job got: 93%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
@@ -36,7 +36,7 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Major (requiring I/O) page faults: 0
 	Minor (reclaiming a frame) page faults: 3683
 	Voluntary context switches: 1
-	Involuntary context switches: 2
+	Involuntary context switches: 1
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -46,20 +46,20 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Page size (bytes): 4096
 	Exit status: 0
 	Command being timed: "python ./src/nqueens/nqueens.py"
-	User time (seconds): 303.25
+	User time (seconds): 293.41
 	System time (seconds): 0.00
 	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 5:04.33
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 4:54.38
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 9472
+	Maximum resident set size (kbytes): 9600
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
 	Minor (reclaiming a frame) page faults: 1017
 	Voluntary context switches: 1
-	Involuntary context switches: 1219
+	Involuntary context switches: 1207
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -69,20 +69,20 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Page size (bytes): 4096
 	Exit status: 0
 	Command being timed: "python ./src/string/string.py"
-	User time (seconds): 0.08
-	System time (seconds): 0.10
-	Percent of CPU this job got: 98%
+	User time (seconds): 0.09
+	System time (seconds): 0.09
+	Percent of CPU this job got: 99%
 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.19
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 34996
+	Maximum resident set size (kbytes): 34944
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
 	Minor (reclaiming a frame) page faults: 49031
 	Voluntary context switches: 1
-	Involuntary context switches: 1
+	Involuntary context switches: 2
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -94,7 +94,7 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Command being timed: "python ./src/triangl/triangl.py"
 	User time (seconds): 0.01
 	System time (seconds): 0.00
-	Percent of CPU this job got: 91%
+	Percent of CPU this job got: 95%
 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
@@ -105,7 +105,7 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Major (requiring I/O) page faults: 0
 	Minor (reclaiming a frame) page faults: 1019
 	Voluntary context switches: 1
-	Involuntary context switches: 5
+	Involuntary context switches: 2
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -115,10 +115,10 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Page size (bytes): 4096
 	Exit status: 0
 	Command being timed: "python ./src/fib/fib.py"
-	User time (seconds): 45.82
+	User time (seconds): 41.41
 	System time (seconds): 0.00
 	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:45.99
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:41.55
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
@@ -128,7 +128,7 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Major (requiring I/O) page faults: 0
 	Minor (reclaiming a frame) page faults: 972
 	Voluntary context switches: 1
-	Involuntary context switches: 280
+	Involuntary context switches: 210
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -146,12 +146,12 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 18816
+	Maximum resident set size (kbytes): 18944
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
 	Minor (reclaiming a frame) page faults: 3381
 	Voluntary context switches: 1
-	Involuntary context switches: 4
+	Involuntary context switches: 2
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -161,10 +161,10 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Page size (bytes): 4096
 	Exit status: 0
 	Command being timed: "python ./src/sumfp/sumfp-ignore-setuptime.py"
-	User time (seconds): 29.42
-	System time (seconds): 12.83
+	User time (seconds): 29.86
+	System time (seconds): 12.69
 	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:42.57
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:42.87
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
@@ -174,7 +174,7 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Major (requiring I/O) page faults: 0
 	Minor (reclaiming a frame) page faults: 7441786
 	Voluntary context switches: 1
-	Involuntary context switches: 339
+	Involuntary context switches: 369
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -184,10 +184,10 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Page size (bytes): 4096
 	Exit status: 0
 	Command being timed: "python ./src/primes/primes.py"
-	User time (seconds): 1.84
-	System time (seconds): 0.19
+	User time (seconds): 1.86
+	System time (seconds): 0.17
 	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.06
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.05
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
@@ -197,7 +197,7 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Major (requiring I/O) page faults: 0
 	Minor (reclaiming a frame) page faults: 67979
 	Voluntary context switches: 1
-	Involuntary context switches: 69
+	Involuntary context switches: 52
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -207,10 +207,10 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Page size (bytes): 4096
 	Exit status: 0
 	Command being timed: "python ./src/deriv/deriv.py"
-	User time (seconds): 0.01
+	User time (seconds): 0.02
 	System time (seconds): 0.00
-	Percent of CPU this job got: 89%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.01
+	Percent of CPU this job got: 96%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
@@ -219,29 +219,6 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
 	Minor (reclaiming a frame) page faults: 1002
-	Voluntary context switches: 1
-	Involuntary context switches: 5
-	Swaps: 0
-	File system inputs: 0
-	File system outputs: 0
-	Socket messages sent: 0
-	Socket messages received: 0
-	Signals delivered: 0
-	Page size (bytes): 4096
-	Exit status: 0
-	Command being timed: "python ./src/deriv/deriv-ignore-setuptime.py"
-	User time (seconds): 0.21
-	System time (seconds): 0.00
-	Percent of CPU this job got: 99%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.21
-	Average shared text size (kbytes): 0
-	Average unshared data size (kbytes): 0
-	Average stack size (kbytes): 0
-	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 9600
-	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 1003
 	Voluntary context switches: 1
 	Involuntary context switches: 1
 	Swaps: 0
@@ -252,11 +229,11 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Signals delivered: 0
 	Page size (bytes): 4096
 	Exit status: 0
-	Command being timed: "python ./src/cpstak/cpstak.py"
-	User time (seconds): 0.02
+	Command being timed: "python ./src/deriv/deriv-ignore-setuptime.py"
+	User time (seconds): 0.31
 	System time (seconds): 0.00
-	Percent of CPU this job got: 92%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.31
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
@@ -264,8 +241,54 @@ Linux ufo-t480s 6.6.44 #1-NixOS SMP PREEMPT_DYNAMIC Sat Aug 3 06:54:42 UTC 2024 
 	Maximum resident set size (kbytes): 9472
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1003
+	Voluntary context switches: 0
+	Involuntary context switches: 19
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "python ./src/cpstak/cpstak.py"
+	User time (seconds): 0.01
+	System time (seconds): 0.00
+	Percent of CPU this job got: 96%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 9216
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
 	Minor (reclaiming a frame) page faults: 981
 	Voluntary context switches: 1
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "python ./src/cpstak/cpstak-ignore-setuptime.py"
+	User time (seconds): 0.02
+	System time (seconds): 0.00
+	Percent of CPU this job got: 96%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.03
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 9600
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 998
+	Voluntary context switches: 0
 	Involuntary context switches: 2
 	Swaps: 0
 	File system inputs: 0
